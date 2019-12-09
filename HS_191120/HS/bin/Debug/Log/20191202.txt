@@ -1,0 +1,26 @@
+Time			Except	Board	Event		Data
+[2019-12-02 16:48:51.04]			[INIT]		SERIAL PORT does not Exist
+[2019-12-02 16:48:51.08]			[INIT]		Loading Completed.
+[2019-12-02 16:49:01.58]			[Click]		Application Close
+[2019-12-02 16:49:01.66]			[Closed]		Application
+[2019-12-02 16:49:01.99]	e	9	[ERROR]		Ping Reply Error
+[2019-12-02 16:49:01.99]	e	1	[ERROR]		Ping Reply Error
+[2019-12-02 16:49:02.04]	e	2	[ERROR]		Ping Reply Error
+[2019-12-02 16:49:02.07]	e	6	[ERROR]		Ping Reply Error
+[2019-12-02 16:49:02.12]	e	7	[ERROR]		Ping Reply Error
+[2019-12-02 16:49:02.13]	e	4	[ERROR]		Ping Reply Error
+[2019-12-02 16:49:02.13]	e	3	[ERROR]		Ping Reply Error
+[2019-12-02 16:49:02.13]		1	[ERROR]		SocketProceeding Exception : System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: NetworkLib.ClientNet.TargetPingCheck() 파일 C:\Users\hyna\Desktop\HS\HS_191120\NetworkLib\ClientNet.cs:줄 170
+   위치: NetworkLib.ClientNet.SocketProceeding() 파일 C:\Users\hyna\Desktop\HS\HS_191120\NetworkLib\ClientNet.cs:줄 80
+[2019-12-02 16:49:02.21]	e	8	[ERROR]		Ping Reply Error
+[2019-12-02 16:49:02.23]	e	5	[ERROR]		Ping Reply Error
+[2019-12-02 16:49:02.38]		7	[ERROR]		SocketProceeding Exception : System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: NetworkLib.ClientNet.TargetPingCheck() 파일 C:\Users\hyna\Desktop\HS\HS_191120\NetworkLib\ClientNet.cs:줄 170
+   위치: NetworkLib.ClientNet.SocketProceeding() 파일 C:\Users\hyna\Desktop\HS\HS_191120\NetworkLib\ClientNet.cs:줄 80
+[2019-12-02 16:49:02.38]		8	[ERROR]		SocketProceeding Exception : System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: NetworkLib.ClientNet.TargetPingCheck() 파일 C:\Users\hyna\Desktop\HS\HS_191120\NetworkLib\ClientNet.cs:줄 170
+   위치: NetworkLib.ClientNet.SocketProceeding() 파일 C:\Users\hyna\Desktop\HS\HS_191120\NetworkLib\ClientNet.cs:줄 80
+[2019-12-02 16:49:02.41]		5	[ERROR]		SocketProceeding Exception : System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: NetworkLib.ClientNet.TargetPingCheck() 파일 C:\Users\hyna\Desktop\HS\HS_191120\NetworkLib\ClientNet.cs:줄 170
+   위치: NetworkLib.ClientNet.SocketProceeding() 파일 C:\Users\hyna\Desktop\HS\HS_191120\NetworkLib\ClientNet.cs:줄 80

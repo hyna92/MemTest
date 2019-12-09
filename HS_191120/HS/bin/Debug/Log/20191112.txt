@@ -1,0 +1,34 @@
+Time			Except	Board	Event		Data
+[2019-11-12 09:49:04.66]			[Loaded]		Application
+[2019-11-12 09:52:43.90]			[Loaded]		Application
+[2019-11-12 09:54:04.49]			[Click]		Test Run
+[2019-11-12 09:54:10.19]			[Click]		Test Pause
+[2019-11-12 09:54:12.06]			[Click]		Test Run
+[2019-11-12 09:54:13.84]			[Click]		Test Stop
+[2019-11-12 09:54:14.97]			[Click]		Test Run
+[2019-11-12 09:54:21.20]			[Closed]		Application
+[2019-11-12 10:12:13.55]			[Loaded]		Application
+[2019-11-12 10:15:06.67]			[Click]		Apply 1200 
+[2019-11-12 10:15:09.38]			[Click]		Apply 1200 
+[2019-11-12 10:15:11.86]			[Click]		Apply 1200 
+[2019-11-12 10:15:17.39]			[Click]		Apply 1200 
+[2019-11-12 10:15:19.58]			[Click]		Test Run
+[2019-11-12 10:15:22.55]			[Click]		Test Pause
+[2019-11-12 10:15:25.76]			[Click]		Test Run
+[2019-11-12 10:16:13.86]			[Closed]		Application
+[2019-11-12 10:24:25.96]			[Loaded]		Application
+[2019-11-12 10:27:44.53]			[Loaded]		Application
+[2019-11-12 10:27:57.38]			[Click]		Apply 1200 
+[2019-11-12 10:27:59.29]			[Click]		Apply 1200 
+[2019-11-12 10:29:46.14]			[Loaded]		Application
+[2019-11-12 10:30:12.17]			[Loaded]		Application
+[2019-11-12 10:31:38.68]			[Loaded]		Application
+[2019-11-12 10:31:50.62]			[Click]		Apply 1200 
+[2019-11-12 10:31:52.50]			[Click]		Measure 
+[2019-11-12 10:31:54.35]			[Click]		Apply 1200 
+[2019-11-12 10:31:55.66]			[Click]		Measure 
+[2019-11-12 10:31:57.32]			[Click]		Test Run
+[2019-11-12 10:32:02.37]			[Click]		Test Pause
+[2019-11-12 10:32:04.40]			[Click]		Test Run
+[2019-11-12 10:32:08.08]			[Click]		Test Stop
+[2019-11-12 10:33:36.09]			[Click]		Test Pause

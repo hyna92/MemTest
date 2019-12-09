@@ -1,0 +1,1216 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using System.Threading;
+using System.IO;
+using System.Net.Sockets;
+using DefineLib;
+using ShareLib;
+using NetworkLib;
+using FunctionUC;
+using System.Reflection;
+using System.Collections.ObjectModel;
+using System.Collections;
+
+namespace HS
+{
+    /// <summary>
+    /// MainWindow.xaml에 대한 상호 작용 논리
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public Share share = null;
+
+        public int MaxBoardCount;
+
+        public PowerUC PowerFun = null;
+        public VoltageUC VoltFun = null;
+        public TestUC TestFun = null;
+        public KvmUC KvmFun = null;
+
+        public List<BoardInfo> BdInfoList = new List<BoardInfo>();
+        public Dictionary<int, ClientNet> SocketDic = new Dictionary<int, ClientNet>();
+
+        public Thread PowerDetectThread = null;
+
+        SerialNet serial = null;
+
+
+
+        public MainWindow()
+        {
+            InitializeComponent();
+
+            share = Share.Initialize;
+            share.SettingBoardColumnCount = 1;
+            share.SettingBoardRowCount = 10;
+
+            MaxBoardCount = share.SettingBoardColumnCount * share.SettingBoardRowCount;
+
+            InitSetting(out share.BoardInfoDic);
+
+            FunctionGridSetting();
+
+            //SocketSetting();
+
+            ///////////////////////////////////////////////////////////////////////////////////////////////////////
+            //foreach(DataGridRow c in MainTable.RowStyle.)
+            //{
+            //    if(double.IsNaN(c.Width))
+            //    {
+            //        c.Width = c.ActualWidth;
+            //    }
+            //    c.Width = double.NaN;
+            //}
+            ///////////////////////////////////////////////////////////////////////////////////////////////////////
+            this.KeyDown += Window_KeyDown;
+            this.Closing += MainWindow_Closing;
+
+            share.EventLog(null, "[Loaded]\t", "Application");
+        }
+
+
+        #region 0. MainTable Event Setting
+
+        private void MainTable_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            DataGrid TempDataGrid = sender as DataGrid;
+            List<BoardInfo> SelectBdList = TempDataGrid.SelectedItems.Cast<BoardInfo>().ToList();
+
+            // Initial Select (DeSelect) 
+            foreach (BoardInfo board in BdInfoList)
+            {
+                board.IsSelected = false;
+            }
+
+            // Set Select Value
+            foreach (BoardInfo selboard in SelectBdList)
+            {
+                selboard.IsSelected = true;
+            }
+        }
+
+        private void DataGridRow_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            var row = (DataGridRow)sender;
+            row.DetailsVisibility = row.DetailsVisibility == Visibility.Collapsed ?
+                Visibility.Visible : Visibility.Collapsed;
+        }
+
+        //private void MainTable_MouseRightButtonUp(object sender, MouseButtonEventArgs e)
+        //{
+        //    DataGrid TempDataGrid = sender as DataGrid;
+
+        //    List<BoardInfo> SelectBdList = TempDataGrid.SelectedItems.Cast<BoardInfo>().ToList();
+
+        //    foreach (BoardInfo board in SelectBdList)
+        //    {
+        //        board.IsSelected = false;
+        //    }
+
+        //    TempDataGrid.UnselectAll();
+        //}
+
+        #endregion
+
+
+        #region 0. Initial Setting
+
+        private void InitSetting(out Dictionary<int, BoardInfo> ParaBoardDic)
+        {
+            ParaBoardDic = new Dictionary<int, BoardInfo>();
+
+            Random random = new Random(); //******** Temp
+
+            Dictionary<int, BoardInfo> TempBoardDic = new Dictionary<int, BoardInfo>();
+            for (int BoardCount = 0; BoardCount < MaxBoardCount; BoardCount++)
+            {
+                // Initial Board Information
+                BoardInfo TempBoard = new BoardInfo();
+                TempBoard.BoardNum = BoardCount + 1;
+                TempBoard.IsSelected = false;
+                TempBoard.TestTotalProgress = "0";
+                ParaBoardDic.Add(TempBoard.BoardNum, TempBoard);
+
+                BdInfoList.Add(TempBoard);
+
+                ///////////////////////////////////////////////////////////////////////////////////////////
+
+                ClientNet client = new ClientNet(TempBoard.BoardNum);
+                client.DelInitDataRequestHandler += RequestInitData;
+                client.DelReceiveDataHandler += ReceiveSocketData;
+                //SocketList.Add(client);
+                SocketDic.Add(TempBoard.BoardNum, client);
+            }
+
+            MainTable.ItemsSource = BdInfoList;
+
+
+            serial = new SerialNet("COM3");
+            PowerDetectThread = new Thread(BoardPowerDetecting);
+            //PowerDetectThread.Start();
+            //////////////////////////////////////////////////////////////////////////////////////////////
+            //MainTable.Loaded += MainTable_Loaded;
+            //////////////////////////////////////////////////////////////////////////////////////////////
+        }
+
+        private void BoardPowerDetecting()
+        {
+            while (!share.shutdown)
+            {
+                try
+                {
+                    foreach (KeyValuePair<int, BoardInfo> el in share.BoardInfoDic)
+                    {
+                        if (!serial.SerialHandle.IsOpen)
+                            continue;
+
+                        byte Command = StaticDefine.SERIAL_CMD_PW_STATE;
+                        byte CheckSum = StaticDefine.SERIAL_CMD_PW_STATE;
+                        byte EndCommand = StaticDefine.SERIAL_RET_CMD_END;
+
+                        byte[] SendByteData = new byte[3];
+                        byte[] ReadByteData = new byte[3];
+
+                        SendByteData[0] = Command;
+                        SendByteData[1] = CheckSum;
+                        SendByteData[2] = EndCommand;
+
+                        serial.SerialSendRecv(SendByteData, out ReadByteData);
+
+                        ///////////////////////////////////////////////////////////////////
+
+                        byte RecvCommand = ReadByteData[0];
+                        byte RecvMSB = ReadByteData[1];
+                        byte RecvLSB = ReadByteData[2];
+                        byte RecvCheckSum = (byte)(RecvCommand + RecvMSB + RecvLSB);
+
+                        if (ReadByteData[3] == RecvCheckSum)
+                        {
+                            if (el.Value.BoardNum < 9)
+                            {
+                                if ((RecvLSB & (1 << el.Value.BoardNum - 1)) != 0)
+                                    el.Value.PowerState = true;
+                                else
+                                    el.Value.PowerState = false;
+                            }
+                            else
+                            {
+                                if ((RecvMSB & (1 << el.Value.BoardNum - 1)) != 0)
+                                    el.Value.PowerState = true;
+                                else
+                                    el.Value.PowerState = false;
+                            }
+                        }
+                    }
+                }
+                catch
+                {
+
+                }
+               
+            }
+        }
+
+        private void FunctionGridSetting()
+        {
+            PowerFun = new PowerUC();
+            PowerFun.DelSerialCommandSendEventHandler += Function_DelSerialCommandSendEventHandler;
+            PowerFunGrid.Children.Add(PowerFun);
+
+            VoltFun = new VoltageUC();
+            VoltFun.DelCommandSendEventHandler += Function_DelCommandSendEventHandler;
+            VoltFunGrid.Children.Add(VoltFun);
+
+            TestFun = new TestUC();
+            TestFun.DelCommandSendEventHandler += Function_DelCommandSendEventHandler;
+            TestFunGrid.Children.Add(TestFun);
+
+            KvmFun = new KvmUC();
+            KvmFun.DelSerialCommandSendEventHandler += Function_DelSerialCommandSendEventHandler;
+            KvmFunGrid.Children.Add(KvmFun);
+        }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            // KVM Hot-Key
+
+            Button TempBtn = new Button();
+
+            if (Keyboard.Modifiers == ModifierKeys.Shift && e.Key == Key.D1)
+            {
+                TempBtn.Name = "KvmBtn1";
+                KvmFun.KvmBtn_Click(TempBtn, null);
+            }
+            else if (Keyboard.Modifiers == ModifierKeys.Shift && e.Key == Key.D2)
+            {
+                TempBtn.Name = "KvmBtn2";
+                KvmFun.KvmBtn_Click(TempBtn, null);
+            }
+            else if (Keyboard.Modifiers == ModifierKeys.Shift && e.Key == Key.D3)
+            {
+                TempBtn.Name = "KvmBtn3";
+                KvmFun.KvmBtn_Click(TempBtn, null);
+            }
+            else if (Keyboard.Modifiers == ModifierKeys.Shift && e.Key == Key.D4)
+            {
+                TempBtn.Name = "KvmBtn4";
+                KvmFun.KvmBtn_Click(TempBtn, null);
+            }
+            else if (Keyboard.Modifiers == ModifierKeys.Shift && e.Key == Key.D5)
+            {
+                TempBtn.Name = "KvmBtn5";
+                KvmFun.KvmBtn_Click(TempBtn, null);
+            }
+            else if (Keyboard.Modifiers == ModifierKeys.Shift && e.Key == Key.D6)
+            {
+                TempBtn.Name = "KvmBtn6";
+                KvmFun.KvmBtn_Click(TempBtn, null);
+            }
+            else if (Keyboard.Modifiers == ModifierKeys.Shift && e.Key == Key.D7)
+            {
+                TempBtn.Name = "KvmBtn7";
+                KvmFun.KvmBtn_Click(TempBtn, null);
+            }
+            else if (Keyboard.Modifiers == ModifierKeys.Shift && e.Key == Key.D8)
+            {
+                TempBtn.Name = "KvmBtn8";
+                KvmFun.KvmBtn_Click(TempBtn, null);
+            }
+            else if (Keyboard.Modifiers == ModifierKeys.Shift && e.Key == Key.D9)
+            {
+                TempBtn.Name = "KvmBtn9";
+                KvmFun.KvmBtn_Click(TempBtn, null);
+            }
+            else if (Keyboard.Modifiers == ModifierKeys.Shift && e.Key == Key.D0)
+            {
+                TempBtn.Name = "KvmBtn0";
+                KvmFun.KvmBtn_Click(TempBtn, null);
+            }
+            else if (Keyboard.Modifiers == ModifierKeys.Shift && e.Key == Key.H)
+            {
+                TempBtn.Name = "KvmBtnH";
+                KvmFun.KvmBtn_Click(TempBtn, null);
+            }
+
+            TempBtn = null;
+        }
+
+        private void RequestInitData(int ClientNumber, int RequestStep, int? ItemNameCount)
+        {
+            int Result;
+
+            switch (RequestStep)
+            {
+                case 0: // Initial
+                    ClearExistingData(ClientNumber);
+                    
+                    break;
+                case 1: // GET CPU Information
+                    DataPacket CpuDataRequest = new DataPacket(StaticDefine.MSG_CATEGORY_SYSTEM, StaticDefine.MSG_ACTION_GET, StaticDefine.MSG_CONTENT_CPU, StaticDefine.MSG_OPTION_NULL);
+                    Result = SendSocketData(ClientNumber, CpuDataRequest);
+
+                    if (Result != StaticDefine.NET_SUCCESS)
+                    {
+                        // Enter Log
+                    }
+                    share.BoardInfoDic[ClientNumber].InitDataStep++;
+                    break;
+                case 2: // GET Memory Information
+                    DataPacket MemoryDataRequest = new DataPacket(StaticDefine.MSG_CATEGORY_SYSTEM, StaticDefine.MSG_ACTION_GET, StaticDefine.MSG_CONTENT_MEMORY, StaticDefine.MSG_OPTION_NULL);
+                    Result = SendSocketData(ClientNumber, MemoryDataRequest);
+
+                    if (Result != StaticDefine.NET_SUCCESS)
+                    {
+                        // Enter Log
+                    }
+                    share.BoardInfoDic[ClientNumber].InitDataStep++;
+                    break;
+                case 3: // GET VddQ Value
+                    if (!share.IsDebug)
+                    {
+                        DataPacket VddqDataRequest = new DataPacket(StaticDefine.MSG_CATEGORY_VOLTAGE, StaticDefine.MSG_ACTION_GET, StaticDefine.MSG_CONTENT_CPU0_VDDQ, StaticDefine.MSG_OPTION_NULL);
+                        Result = SendSocketData(ClientNumber, VddqDataRequest);
+
+                        if (Result != StaticDefine.NET_SUCCESS)
+                        {
+                            // Enter Log
+                        }
+                        share.BoardInfoDic[ClientNumber].InitDataStep++;
+                    }
+                    else
+                    {
+                        share.BoardInfoDic[ClientNumber].InitDataStep++;
+                        RequestInitData(ClientNumber, share.BoardInfoDic[ClientNumber].InitDataStep, null);
+                    }
+                    break;
+                case 4: // GET Item Count
+                    DataPacket ItemCountRequest = new DataPacket(StaticDefine.MSG_CATEGORY_TEST, StaticDefine.MSG_ACTION_GET, StaticDefine.MSG_CONTENT_ITEM_COUNT, StaticDefine.MSG_OPTION_NULL);
+                    Result = SendSocketData(ClientNumber, ItemCountRequest);
+
+                    if (Result != StaticDefine.NET_SUCCESS)
+                    {
+                        // Enter Log
+                    }
+                    share.BoardInfoDic[ClientNumber].InitDataStep++;
+                    break;
+                case 5: // GET Each Item Name
+                    DataPacket ItemNameRequest = new DataPacket(StaticDefine.MSG_CATEGORY_TEST, StaticDefine.MSG_ACTION_GET, StaticDefine.MSG_CONTENT_ITEM_NAME, Convert.ToInt32(ItemNameCount));
+                    Result = SendSocketData(ClientNumber, ItemNameRequest);
+
+                    if (Result != StaticDefine.NET_SUCCESS)
+                    {
+                        // Enter Log
+                    }
+                    break;
+                default:
+                    break;
+            } 
+        }
+
+        private void ClearExistingData(int clientNumber)
+        {
+            Dispatcher.Invoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate
+            {
+                share.BoardInfoDic[clientNumber].Cpu = string.Empty;
+                share.BoardInfoDic[clientNumber].Memory = string.Empty;
+                share.BoardInfoDic[clientNumber].TestString = string.Empty;// taticDefine.TEST_STATE_NULL;
+                share.BoardInfoDic[clientNumber].TestTotalProgress = "0";
+                share.BoardInfoDic[clientNumber].TestItemList.Clear();
+                share.BoardInfoDic[clientNumber].ErrorList.Clear();
+
+                share.BoardInfoDic[clientNumber].InitDataStep++;
+
+                RequestInitData(clientNumber, share.BoardInfoDic[clientNumber].InitDataStep, null);
+            }));
+            
+          
+        }
+
+        //private void MainTable_Loaded(object sender, RoutedEventArgs e)
+        //{
+        //    MainTable.RowHeight = MainTable.ActualHeight / MainTable.Items.Count;
+        //}
+
+        #endregion
+
+
+        #region 0. Send Command
+
+        public void Function_DelSerialCommandSendEventHandler(int Cmd, byte Option)
+        {
+            Dispatcher.Invoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate
+            {
+                switch (Cmd)
+                {
+                    case StaticDefine.COMMAND_POWER_ON:
+                    case StaticDefine.COMMAND_POWER_OFF:
+                        PowerCommandSend(Option);
+                        break;
+                    case StaticDefine.COMMAND_KVM_SELECT:
+                        if(Option != 0)
+                            KVMCommandSend(Option);
+                        break;
+                }
+            }));
+        }
+
+        private void PowerCommandSend(byte Cmd)
+        {
+            bool CheckSelectBoard = false;
+            
+            //SerialNet serial = new SerialNet("COM2");
+            
+            foreach (KeyValuePair<int, BoardInfo> el in share.BoardInfoDic)
+            {
+                if (el.Value.IsSelected)
+                {
+                    CheckSelectBoard = true;
+
+                    // Convert From BitArray to Byte
+                    BitArray bitArray = new BitArray(16);
+                    bitArray.Set(el.Value.BoardNum - 1, true);
+
+                    byte[] LSBnMSB = new byte[2];
+                    bitArray.CopyTo(LSBnMSB, 0);
+
+                    //// Byte 
+                    byte Command = Cmd;
+                    byte LSB = LSBnMSB[0];
+                    byte MSB = LSBnMSB[1];
+
+                    byte CheckSum = Command;
+                    if (el.Value.BoardNum < 9)
+                        CheckSum += LSB;
+                    else
+                        CheckSum += MSB;
+
+                    byte EndCommand = StaticDefine.SERIAL_RET_CMD_END;
+
+                    // Send
+                    byte[] SendByteData = new byte[5];
+                    byte[] ReadByteData = new byte[5];
+
+                    SendByteData[0] = Command;
+                    SendByteData[1] = MSB;
+                    SendByteData[2] = LSB;
+                    SendByteData[3] = CheckSum;
+                    SendByteData[4] = EndCommand;
+            
+                    serial.SerialSendRecv(SendByteData, out ReadByteData);
+                }
+            }
+            
+            if (!CheckSelectBoard)
+            {
+                MessageBox.Show("Please Select the Board", null, MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                share.EventLog(null, "[Show]\t", "MessageBox > Please Select the Board");
+                return;
+            }
+        }
+
+        private void KVMCommandSend(byte SelectBoard)
+        {
+            //StaticDefine.SERIAL_CMD_BD_SEL + SelectBoard;
+
+            byte Command = StaticDefine.SERIAL_CMD_BD_SEL;
+            byte BoardNum = SelectBoard;
+            byte CheckSum = (byte)(Command + BoardNum);
+            byte EndCommand = StaticDefine.SERIAL_RET_CMD_END;
+
+            byte[] SendByteData = new byte[4];
+            byte[] ReadByteData = new byte[4];
+
+            SendByteData[0] = Command;
+            SendByteData[1] = BoardNum;
+            SendByteData[2] = CheckSum;
+            SendByteData[3] = EndCommand;
+
+            serial.SerialSendRecv(SendByteData, out ReadByteData);
+
+            //serial.SerialClose();
+        }
+        
+        private void Function_DelCommandSendEventHandler(int Cmd, int Option)
+        {
+            Dispatcher.Invoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate
+            {
+                switch (Cmd)
+                {
+                    case StaticDefine.COMMAND_VOLTAGE_SET:  // TCP Socket
+                        VoltageCommandSend(StaticDefine.MSG_ACTION_SET, Option);
+                        break;
+                    case StaticDefine.COMMAND_VOLTAGE_GET:  // TCP Socket
+                        VoltageCommandSend(StaticDefine.MSG_ACTION_GET, Option);
+                        break;
+                    case StaticDefine.COMMAND_TEST_RUN: // TCP Socket
+                    case StaticDefine.COMMAND_TEST_PAUSE:
+                    case StaticDefine.COMMAND_TEST_STOP:
+                        TestCommandSend(Option);
+                        break;
+                }
+            }));
+        }
+
+        //private void SystemCommandSend()
+        //{
+        //    int Result;
+        //
+        //    foreach (ClientNet el in SocketList)
+        //    {
+        //        if ((el.ClientSocket != null) && (el.ClientSocket.Connected))
+        //        {
+        //            // GET CPU Information
+        //            DataPacket CpuDataRequest = new DataPacket(StaticDefine.MSG_CATEGORY_SYSTEM, StaticDefine.MSG_ACTION_GET, StaticDefine.MSG_CONTENT_CPU, StaticDefine.MSG_OPTION_NULL);
+        //            Result = el.SendSocketMsg(CpuDataRequest);
+        //            //Result = SendSocketData(el.ClientNum, CpuDataRequest);
+        //
+        //            if (Result != StaticDefine.NET_SUCCESS)
+        //            {
+        //                // Enter Log
+        //            }
+        //
+        //            System.Threading.Thread.Sleep(StaticDefine.PacketSendDelay);
+        //
+        //            // GET Memory Information
+        //            DataPacket MemoryDataRequest = new DataPacket(StaticDefine.MSG_CATEGORY_SYSTEM, StaticDefine.MSG_ACTION_GET, StaticDefine.MSG_CONTENT_MEMORY, StaticDefine.MSG_OPTION_NULL);
+        //            Result = el.SendSocketMsg(MemoryDataRequest);
+        //            //Result = SendSocketData(el.ClientNum, MemoryDataRequest);
+        //
+        //            if (Result != StaticDefine.NET_SUCCESS)
+        //            {
+        //                // Enter Log
+        //            }
+        //
+        //        }
+        //    }
+        //}
+
+        private void VoltageCommandSend(int action, int volt)  //int channel,
+        {
+            bool CheckSelectBoard = false;
+
+            foreach (KeyValuePair<int, BoardInfo> el in share.BoardInfoDic)
+            {
+                if (el.Value.IsSelected)
+                {
+                    CheckSelectBoard = true;
+
+                    DataPacket SendData = new DataPacket(StaticDefine.MSG_CATEGORY_VOLTAGE, action, StaticDefine.MSG_CONTENT_CPU0_VDDQ, volt);
+                    //DataPacket SendData = new DataPacket(StaticDefine.MSG_CATEGORY_VOLTAGE, action, channel, volt);
+
+                    int Result = SendSocketData(el.Value.BoardNum, SendData);
+
+                    if (Result != StaticDefine.NET_SUCCESS)
+                    {
+                        // Enter Log
+                    }
+                }
+            }
+
+            if (!CheckSelectBoard)
+            {
+                MessageBox.Show("Please Select the Board", null, MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                share.EventLog(null, "[Show]\t", "MessageBox > Please Select the Board");
+                return;
+            }
+        }
+        
+        private void TestCommandSend(int StatusOption)
+        {
+            DateTime NowTime = DateTime.Now;
+
+            bool CheckSelectBoard = false;
+
+            foreach (KeyValuePair<int, BoardInfo> el in share.BoardInfoDic)
+            {
+                if (el.Value.IsSelected)
+                {
+                    CheckSelectBoard = true;
+                    
+                    switch(StatusOption)
+                    {
+                        case StaticDefine.BOARD_STATUS_RUN:
+                            {
+                                // Pass by Testing Slot
+                                if (StaticDefine.TEST_STATE_TESTSTATE_START < el.Value.TestState && el.Value.TestState < StaticDefine.TEST_STATE_TESTSTATE_END)
+                                {
+                                    break;
+                                }
+
+                                el.Value.TestStep = -1;
+                                el.Value.TestString = string.Empty;
+                                el.Value.TestTotalProgress = "0";
+                                el.Value.TestTotalErrorCount = 0;
+                                el.Value.TestOccurErrorCount = 0;
+                                el.Value.ErrorList.Clear();
+                                //el.Value.TestErrorMsg = string.Empty;
+
+                                foreach (TestItem item in el.Value.TestItemList)
+                                {
+                                    item.ItemProgress = 0;
+                                    item.ItemState = "WAIT";
+                                }
+
+                                // Make Result File 
+                                string ResultFilePath = StaticDefine.PATH_RESULT + string.Format("\\{0:D2}\\", el.Value.BoardNum);
+
+                                if (!Directory.Exists(ResultFilePath))
+                                    Directory.CreateDirectory(ResultFilePath);
+
+                                el.Value.ResultFileName = string.Format(el.Value.TestID + NowTime.ToString("_yyyyMMdd_HHmm") + ".txt");
+                            }
+                            break;
+                        case StaticDefine.BOARD_STATUS_FINISH:
+                            {
+                                if (!(StaticDefine.TEST_STATE_TESTSTATE_START < el.Value.TestState && el.Value.TestState < StaticDefine.TEST_STATE_TESTSTATE_END))
+                                    continue;
+
+                                el.Value.IsTesting = false;
+                            }
+                            break;
+                        case StaticDefine.BOARD_STATUS_PAUSE:
+                            {
+                                if (!(StaticDefine.TEST_STATE_TESTSTATE_START < el.Value.TestState && el.Value.TestState < StaticDefine.TEST_STATE_TESTSTATE_END))
+                                    continue;
+                            }
+                            break;
+                    }
+
+                    System.Threading.Thread.Sleep(150);
+
+                    DataPacket SendData = new DataPacket(StaticDefine.MSG_CATEGORY_TEST, StaticDefine.MSG_ACTION_SET, StaticDefine.MSG_CONTENT_STATUS, StatusOption);
+                    int Result = SendSocketData(el.Value.BoardNum, SendData);
+
+                    
+                    if (Result != StaticDefine.NET_SUCCESS)
+                    {
+                        // Enter Log
+                    }
+                }
+            }
+
+            if (!CheckSelectBoard)
+            {
+                MessageBox.Show("Please Select the Board", null, MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                share.EventLog(null, "[Show]\t", "MessageBox > Please Select the Board");
+                return;
+            }
+        }
+
+        private int SendSocketData(int BoardNum, DataPacket SendMsg)
+        {
+            int Result = StaticDefine.NET_FAIL;
+
+            try
+            {
+                //foreach (ClientNet el in SocketList)
+                foreach(KeyValuePair<int, ClientNet> el in SocketDic)
+                {
+                    if (el.Value.ClientNum != BoardNum)
+                        continue;
+
+                    Result = el.Value.SendSocketMsg(SendMsg);
+                }
+            }
+            catch (Exception ex)
+            {
+                Result = StaticDefine.NET_FAIL;
+
+                share.EventLog(null, string.Empty, string.Format("\t{0} > {1}", MethodBase.GetCurrentMethod().Name, ex.Message), false);
+            }
+
+            return Result;
+        }
+
+
+        #endregion
+
+
+        #region 0. Receive Command
+
+        private void ReceiveSocketData(int ClientNum, DataPacket RecvCmd)
+        {
+            Dispatcher.Invoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate
+            {
+                switch (RecvCmd.MSGCategory)
+                {
+                    case StaticDefine.MSG_CATEGORY_SYSTEM:
+                        SystemCommandRecv(ClientNum, RecvCmd);
+                        break;
+                    case StaticDefine.MSG_CATEGORY_VOLTAGE:
+                        VoltageCommandRecv(ClientNum, RecvCmd);
+                        break;
+                    case StaticDefine.MSG_CATEGORY_TEST:
+                        TestCommandRecv(ClientNum, RecvCmd);
+                        break;
+                }
+            }));
+        }
+
+        private void SystemCommandRecv(int ClientNum, DataPacket RecvPacket)
+        {
+            int BoardNum = ClientNum;
+
+            try
+            {
+                switch (RecvPacket.MSGContent)
+                {
+                    case StaticDefine.MSG_CONTENT_CPU:
+                        {
+                            if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                            {
+                                // Enter Log
+                                break;
+                            }
+                            share.BoardInfoDic[BoardNum].Cpu = RecvPacket.MSGData;
+                            RequestInitData(BoardNum, share.BoardInfoDic[BoardNum].InitDataStep, null);
+                        }
+                        break;
+                    case StaticDefine.MSG_CONTENT_MEMORY:
+                        {
+                            if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                            {
+                                // Enter Log
+                                break;
+                            }
+                            share.BoardInfoDic[BoardNum].Memory = RecvPacket.MSGData;
+                            RequestInitData(BoardNum, share.BoardInfoDic[BoardNum].InitDataStep, null);
+                        }
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                share.EventLog(BoardNum, string.Empty, string.Format("\t{0} > {1}", MethodBase.GetCurrentMethod().Name, ex.Message), false);
+            }
+        }
+
+        private void VoltageCommandRecv(int ClientNum, DataPacket RecvPacket)
+        {
+            int BoardNum = ClientNum;
+            BoardInfo RecvBoardInfo = share.BoardInfoDic[BoardNum];
+
+            try
+            {
+                if (RecvPacket.MSGAction == StaticDefine.MSG_ACTION_SET)
+                {
+                    if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                    {
+                        // Enter Log
+                        return;
+                    }
+
+                    int ReadVolt = Convert.ToInt32(RecvPacket.MSGData);
+                    RecvBoardInfo.VddQ = ReadVolt;
+
+                    // Enter Log
+                }
+                else if (RecvPacket.MSGAction == StaticDefine.MSG_ACTION_GET)
+                {
+                    if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                    {
+                        // Enter Log
+                        return;
+                    }
+
+                    int GetVolt = Convert.ToInt32(RecvPacket.MSGData);
+                    RecvBoardInfo.VddQ = GetVolt;
+
+                    // Enter Log
+ 
+                    if (share.BoardInfoDic[BoardNum].IsInitializing)
+                        RequestInitData(BoardNum, share.BoardInfoDic[BoardNum].InitDataStep, null);
+                }
+            }
+            catch (Exception ex)
+            {
+                share.EventLog(BoardNum, string.Empty, string.Format("\t{0} > {1}", MethodBase.GetCurrentMethod().Name, ex.Message), false);
+            }
+        }
+        
+        private void TestCommandRecv(int ClientNum, DataPacket RecvPacket)
+        {
+            int BoardNum = ClientNum;
+
+            if (!share.BoardInfoDic.ContainsKey(BoardNum))
+                return;
+            
+            BoardInfo RecvBoardInfo = share.BoardInfoDic[BoardNum];
+
+            try
+            {
+                if (RecvPacket.MSGAction == StaticDefine.MSG_ACTION_SET)
+                {
+                    //if (RecvPacket.MSGContent == StaticDefine.MSG_CONTENT_STATUS)
+                    {
+                        switch (Convert.ToInt32(RecvPacket.MSGData))
+                        {
+                            case StaticDefine.BOARD_STATUS_RUN_READY:
+                                break;
+                            case StaticDefine.BOARD_STATUS_RUN:
+                                {
+                                    if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                                    {
+                                        RecvBoardInfo.TestString = "START FAIL";
+                                        RecvBoardInfo.TestState = StaticDefine.TEST_STATE_NULL;
+
+                                        // Enter Log
+
+                                        break;
+                                    }
+
+                                    RecvBoardInfo.IsTesting = true;
+                                    RecvBoardInfo.TestState = StaticDefine.TEST_STATE_TEST_ING;
+
+                                    // Enter Log
+                                }
+                                break;
+                            case StaticDefine.BOARD_STATUS_FINISH_READY:
+                            case StaticDefine.BOARD_STATUS_FINISH:
+                                {
+                                    if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                                    {
+                                        RecvBoardInfo.IsTesting = true;
+                                        
+                                        // Enter Log
+                                        break;
+                                    }
+
+                                    if (RecvBoardInfo.TestStep != -1)
+                                        RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemState = "FAIL";
+
+                                    RecvBoardInfo.TestString = "STOP";
+                                    RecvBoardInfo.TestState = StaticDefine.TEST_STATE_FAIL;
+                                }
+                                break;
+                            case StaticDefine.BOARD_STATUS_PAUSE:
+                                {
+                                    if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                                    {
+                                        // Enter Log
+                                        break;
+                                    }
+
+                                    RecvBoardInfo.TestState = StaticDefine.TEST_STATE_TEST_PAUSE;
+                                    RecvBoardInfo.TestString = "PAUSE";
+
+                                    //if (RecvBoardInfo.TestStep != -1)
+                                        //RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemState = "PAUSE";
+
+                                    // Enter Log
+                                }
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                }
+                else if (RecvPacket.MSGAction == StaticDefine.MSG_ACTION_GET)
+                {
+                    // ITEM COUNT
+                    if (RecvPacket.MSGContent == StaticDefine.MSG_CONTENT_ITEM_COUNT)
+                    {
+                        if(RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                        {
+                            // Enter Log
+                            return;
+                        }
+
+                        RecvBoardInfo.TestItemCount = Convert.ToInt32(RecvPacket.MSGData);
+
+                        // Enter Log
+
+                        //RecvBoardInfo.TestItemList.Clear();
+                        RequestInitData(BoardNum, share.BoardInfoDic[BoardNum].InitDataStep, 0);
+                    }
+                    // ITEM NAME
+                    else if (RecvPacket.MSGContent == StaticDefine.MSG_CONTENT_ITEM_NAME)
+                    {
+                        if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                        {
+                            // Enter Log
+                            return;
+                        }
+
+                        string[] RecvData = RecvPacket.MSGData.Split(',');
+
+                        TestItem TempItem = new TestItem();
+                        TempItem.ItemNumber = Convert.ToInt32(RecvData[0]);
+                        TempItem.ItemName = RecvData[1];
+                        TempItem.ItemProgress = 0;
+                        TempItem.ItemState = "WAIT";
+
+                        RecvBoardInfo.TestItemList.Add(TempItem);
+
+                        if ((RecvBoardInfo.TestItemCount - 1) != TempItem.ItemNumber)
+                            RequestInitData(BoardNum, share.BoardInfoDic[BoardNum].InitDataStep, TempItem.ItemNumber + 1);
+                        else
+                            share.BoardInfoDic[BoardNum].IsInitializing = false;
+
+                        // Enter Log
+                    }
+                    // TEST STATUS
+                    else if (RecvPacket.MSGContent == StaticDefine.MSG_CONTENT_STATUS)
+                    {
+                        if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                        {
+                            // Enter Log
+                            return;
+                        }
+
+                        int ConvertIntData = Convert.ToInt32(RecvPacket.MSGData);
+
+                        switch(ConvertIntData)
+                        {
+                            case StaticDefine.BOARD_STATUS_RUN_READY:
+                                break;
+                            case StaticDefine.BOARD_STATUS_RUN:
+                                RecvBoardInfo.TestState = StaticDefine.TEST_STATE_TEST_ING;
+                                RecvBoardInfo.TestString = "RUNNING";
+                                break;
+                            case StaticDefine.BOARD_STATUS_FINISH_READY:
+                                break;
+                            case StaticDefine.BOARD_STATUS_FINISH:
+                                RecvBoardInfo.IsTesting = false;
+                                RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemProgress = 100;
+                                RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemState = "PASS";
+                                RecvBoardInfo.TestTotalProgress = CalculatorTotalProgress(RecvBoardInfo);
+                                // 마지막 Item = 100;
+                                TestFinishProc(RecvBoardInfo);
+                                break;
+                            case StaticDefine.BOARD_STATUS_PAUSE:
+                                RecvBoardInfo.TestState = StaticDefine.TEST_STATE_TEST_PAUSE;
+                                RecvBoardInfo.TestString = "PAUSE";
+                                RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemState = "PAUSE";
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                    // PROGRESS
+                    else if (RecvPacket.MSGContent == StaticDefine.MSG_CONTENT_PROGRESS)
+                    {
+                         if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                         {
+                             // Enter Log
+                             return;
+                         }
+
+                         string[] RecvData = RecvPacket.MSGData.Split(',');
+                         
+                         int CurrentItemIndex = Convert.ToInt32(RecvData[0]);
+                         int CurrentProgress = Convert.ToInt32(RecvData[1]);
+
+                        if(RecvBoardInfo.TestStep != -1)
+                        {
+                            if (RecvBoardInfo.TestStep != CurrentItemIndex)
+                            {
+                                // Error 가 아닐 때
+
+                                RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemProgress = 100;
+
+                                if(RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemState != "FAIL")
+                                    RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemState = "PASS";
+                                //foreach (TestItem el in RecvBoardInfo.TestItemList)
+                                //{
+                                //    int index = el.ItemNumber;
+                                //
+                                //    if(index < CurrentItemIndex)
+                                //    {
+                                //        RecvBoardInfo.TestItemList[index].ItemProgress = 100;
+                                //        RecvBoardInfo.TestItemList[index].ItemState = "PASS";
+                                //    }
+                                //}
+                            }
+                        }
+
+                        RecvBoardInfo.TestStep = CurrentItemIndex;
+                        RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemProgress = CurrentProgress;
+                        RecvBoardInfo.TestTotalProgress = CalculatorTotalProgress(RecvBoardInfo);
+
+
+                        if(RecvBoardInfo.TestState ==  StaticDefine.TEST_STATE_TEST_ING)
+                        {
+                            //if (CurrentProgress != 100)
+                            if(RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemState != "FAIL" && RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemState != "PASS")
+                                RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemState = "TEST";
+                            //else
+                            //    RecvBoardInfo.TestItemList[RecvBoardInfo.TestStep].ItemState = "PASS";
+                        }
+                    }
+                    // ERROR COUNT
+                    else if (RecvPacket.MSGContent == StaticDefine.MSG_CONTENT_ERROR_COUNT)
+                    {
+                        if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                        {
+                            // Enter Log
+                            return;
+                        }
+
+                        //int OccurErrorCount = 0;
+                        int AfterTotalErrCnt = Convert.ToInt32(RecvPacket.MSGData);
+                        int BeforTotalErrCnt = RecvBoardInfo.TestTotalErrorCount;
+
+                        int OccurErrorCount = AfterTotalErrCnt - BeforTotalErrCnt;
+
+                        RecvBoardInfo.TestTotalErrorCount = AfterTotalErrCnt;
+                        RecvBoardInfo.TestOccurErrorCount = OccurErrorCount;
+
+                        //if (OccurErrorCount != 0)
+                        //{
+                        //    TestProcCommandSend(RecvBoardInfo.BoardNum, StaticDefine.MSG_ACTION_GET, StaticDefine.MSG_CONTENT_ERROR_DATA);
+                        //    RecvBoardInfo.TestErrorDataRequestCount++;
+                        //}
+                    }
+                    // ERROR DATA
+                    else if (RecvPacket.MSGContent == StaticDefine.MSG_CONTENT_ERROR_DATA)
+                    {
+                        if (RecvPacket.MSGData == StaticDefine.MSG_FAIL)
+                        {
+                            // Enter Log
+                            return;
+                        }
+
+                        string[] RecvData = RecvPacket.MSGData.Split(',');
+
+                        int ErrorItemIndex = Convert.ToInt32(RecvData[0]);
+                        string ErrorAddr = RecvData[1];
+
+                        ErrorItem errorItem = new ErrorItem();
+                        errorItem.ErrorCount = RecvBoardInfo.ErrorList.Count + 1;
+                        errorItem.ErrorIndex = ErrorItemIndex;
+                        errorItem.ErrorAddress = ErrorAddr;
+
+                        RecvBoardInfo.ErrorList.Add(errorItem);
+
+                        RecvBoardInfo.TestItemList[ErrorItemIndex].ItemState = "FAIL";
+
+                        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        
+                        if (RecvBoardInfo.ErrorList.Count < RecvBoardInfo.TestTotalErrorCount)
+                        {
+                            DataPacket ReqErrorData = new DataPacket(StaticDefine.MSG_CATEGORY_TEST, StaticDefine.MSG_ACTION_GET, StaticDefine.MSG_CONTENT_ERROR_DATA, errorItem.ErrorCount);
+                            //Result = SendSocketData(ClietNumber, CpuDataRequest);
+                            SendSocketData(ClientNum, ReqErrorData);
+                            //System.Threading.Thread.Sleep(300);
+                        }
+                        else
+                        {
+                            DataPacket SendData = new DataPacket(StaticDefine.MSG_CATEGORY_TEST, StaticDefine.MSG_ACTION_GET, StaticDefine.MSG_CONTENT_STATUS, StaticDefine.MSG_OPTION_NULL);
+                            SendSocketData(ClientNum, SendData);
+                        
+                            SocketDic[ClientNum].TestProcStep = 1;
+                        }
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+
+            }
+        }
+
+        private string CalculatorTotalProgress(BoardInfo boardInfo)
+        {
+            ObservableCollection<TestItem> testItemList = boardInfo.TestItemList;
+            double TotalProgress = 0;
+
+            foreach (TestItem el in testItemList)
+            {
+                double CalcProgress = ((double)el.ItemProgress / 100) / testItemList.Count;
+
+                TotalProgress += CalcProgress;
+            }
+
+            string PercentProgress = (TotalProgress * 100).ToString("F2");
+
+            return PercentProgress;
+        }
+             
+        private void TestFinishProc(BoardInfo TempBoardInfo)
+        {
+            //TempBoardInfo.IsTesting = false;
+
+            if (TempBoardInfo.TestItemList.Any(x => x.ItemState == "FAIL"))
+            {
+                TempBoardInfo.TestString = "FAIL";
+                TempBoardInfo.TestState = StaticDefine.TEST_STATE_FAIL;
+
+                share.EventLog(TempBoardInfo.BoardNum, "[Test]\t", string.Format("End - Fail (ID : {0})", TempBoardInfo.TestID));
+            }
+            else
+            {
+                TempBoardInfo.TestString = "PASS";
+                TempBoardInfo.TestState = StaticDefine.TEST_STATE_PASS;
+
+                share.EventLog(TempBoardInfo.BoardNum, "[Test]\t", string.Format("End - Pass (ID : {0})", TempBoardInfo.TestID));
+            }
+
+            // TEST END
+        }
+
+        #endregion
+        
+
+        #region 99. Closing
+
+        private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            share.shutdown = true;
+
+            //foreach (ClientNet el in SocketList)
+            foreach(KeyValuePair<int, ClientNet> el in SocketDic)
+            {
+                el.Value.StopThread();
+                el.Value.RemoveSocket(el.Value.ClientNum);
+            }
+
+
+            if(PowerDetectThread !=null)
+            {
+                PowerDetectThread.Abort();
+                PowerDetectThread = null;
+            }
+
+            serial.SerialClose();
+
+            if (PowerFun != null)
+                PowerFun = null;
+
+            if (VoltFun != null)
+                VoltFun = null;
+
+            if (TestFun != null)
+                TestFun = null;
+            
+            share.EventLog(null, "[Closed]\t", "Application");
+        }
+
+        #endregion
+
+
+    }
+
+    #region 000. ETC
+
+    public class PowerStateConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (targetType != typeof(string))
+                return null;
+
+            bool PowerState = bool.Parse(value.ToString());
+            string strPowerState;
+
+            if (PowerState)
+                strPowerState = "ON";
+            else
+                strPowerState = "OFF";
+
+            return strPowerState;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class ConnectStateConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (targetType != typeof(string))
+                return null;
+
+            bool ConnectState = bool.Parse(value.ToString());
+            string strConnectState;
+
+            if (ConnectState)
+                strConnectState = "ONLINE";
+            else
+                strConnectState = "OFFLINE";
+
+            return strConnectState;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+    #endregion
+
+}

@@ -1,0 +1,621 @@
+E:\HS\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS\HS\obj\Debug\MainWindow.g.cs
+E:\HS\HS\obj\Debug\App.g.cs
+E:\HS\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS\HS\bin\Debug\HS.exe.config
+E:\HS\HS\bin\Debug\HS.exe
+E:\HS\HS\bin\Debug\HS.pdb
+E:\HS\HS\bin\Debug\DefineLib.dll
+E:\HS\HS\bin\Debug\FunctionUC.dll
+E:\HS\HS\bin\Debug\NetworkLib.dll
+E:\HS\HS\bin\Debug\ShareLib.dll
+E:\HS\HS\bin\Debug\DefineLib.pdb
+E:\HS\HS\bin\Debug\FunctionUC.pdb
+E:\HS\HS\bin\Debug\NetworkLib.pdb
+E:\HS\HS\bin\Debug\ShareLib.pdb
+E:\HS\HS\obj\Debug\MainWindow.baml
+E:\HS\HS\obj\Debug\HS.g.resources
+E:\HS\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS\HS\obj\Debug\HS.exe
+E:\HS\HS\obj\Debug\HS.pdb
+E:\HS_190903\HS\bin\Debug\HS.exe.config
+E:\HS_190903\HS\bin\Debug\HS.exe
+E:\HS_190903\HS\bin\Debug\HS.pdb
+E:\HS_190903\HS\bin\Debug\DefineLib.dll
+E:\HS_190903\HS\bin\Debug\FunctionUC.dll
+E:\HS_190903\HS\bin\Debug\NetworkLib.dll
+E:\HS_190903\HS\bin\Debug\ShareLib.dll
+E:\HS_190903\HS\bin\Debug\DefineLib.pdb
+E:\HS_190903\HS\bin\Debug\FunctionUC.pdb
+E:\HS_190903\HS\bin\Debug\NetworkLib.pdb
+E:\HS_190903\HS\bin\Debug\ShareLib.pdb
+E:\HS_190903\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_190903\HS\obj\Debug\MainWindow.g.cs
+E:\HS_190903\HS\obj\Debug\App.g.cs
+E:\HS_190903\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_190903\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_190903\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_190903\HS\obj\Debug\MainWindow.baml
+E:\HS_190903\HS\obj\Debug\HS.g.resources
+E:\HS_190903\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_190903\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_190903\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_190903\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_190903\HS\obj\Debug\HS.exe
+E:\HS_190903\HS\obj\Debug\HS.pdb
+E:\HS_190907\HS\bin\Debug\HS.exe.config
+E:\HS_190907\HS\bin\Debug\HS.exe
+E:\HS_190907\HS\bin\Debug\HS.pdb
+E:\HS_190907\HS\bin\Debug\DefineLib.dll
+E:\HS_190907\HS\bin\Debug\FunctionUC.dll
+E:\HS_190907\HS\bin\Debug\NetworkLib.dll
+E:\HS_190907\HS\bin\Debug\ShareLib.dll
+E:\HS_190907\HS\bin\Debug\DefineLib.pdb
+E:\HS_190907\HS\bin\Debug\FunctionUC.pdb
+E:\HS_190907\HS\bin\Debug\NetworkLib.pdb
+E:\HS_190907\HS\bin\Debug\ShareLib.pdb
+E:\HS_190907\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_190907\HS\obj\Debug\MainWindow.g.cs
+E:\HS_190907\HS\obj\Debug\App.g.cs
+E:\HS_190907\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_190907\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_190907\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_190907\HS\obj\Debug\MainWindow.baml
+E:\HS_190907\HS\obj\Debug\HS.g.resources
+E:\HS_190907\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_190907\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_190907\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_190907\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_190907\HS\obj\Debug\HS.exe
+E:\HS_190907\HS\obj\Debug\HS.pdb
+E:\HS_190919\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_190919\HS\obj\Debug\MainWindow.g.cs
+E:\HS_190919\HS\obj\Debug\App.g.cs
+E:\HS_190919\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_190919\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_190919\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_190919\HS\obj\Debug\HS.exe
+E:\HS_190919\HS\obj\Debug\HS.pdb
+E:\HS_190919\HS\bin\Debug\HS.exe.config
+E:\HS_190919\HS\bin\Debug\HS.exe
+E:\HS_190919\HS\bin\Debug\HS.pdb
+E:\HS_190919\HS\bin\Debug\DefineLib.dll
+E:\HS_190919\HS\bin\Debug\FunctionUC.dll
+E:\HS_190919\HS\bin\Debug\NetworkLib.dll
+E:\HS_190919\HS\bin\Debug\ShareLib.dll
+E:\HS_190919\HS\bin\Debug\DefineLib.pdb
+E:\HS_190919\HS\bin\Debug\FunctionUC.pdb
+E:\HS_190919\HS\bin\Debug\NetworkLib.pdb
+E:\HS_190919\HS\bin\Debug\ShareLib.pdb
+E:\HS_190919\HS\obj\Debug\MainWindow.baml
+E:\HS_190919\HS\obj\Debug\HS.g.resources
+E:\HS_190919\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_190919\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_190919\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_190919\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_190930\HS\obj\Debug\MainWindow.g.cs
+E:\HS_190930\HS\obj\Debug\App.g.cs
+E:\HS_190930\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_190930\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_190930\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_190930\HS\bin\Debug\HS.exe.config
+E:\HS_190930\HS\bin\Debug\HS.exe
+E:\HS_190930\HS\bin\Debug\HS.pdb
+E:\HS_190930\HS\bin\Debug\DefineLib.dll
+E:\HS_190930\HS\bin\Debug\FunctionUC.dll
+E:\HS_190930\HS\bin\Debug\NetworkLib.dll
+E:\HS_190930\HS\bin\Debug\ShareLib.dll
+E:\HS_190930\HS\bin\Debug\DefineLib.pdb
+E:\HS_190930\HS\bin\Debug\FunctionUC.pdb
+E:\HS_190930\HS\bin\Debug\NetworkLib.pdb
+E:\HS_190930\HS\bin\Debug\ShareLib.pdb
+E:\HS_190930\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_190930\HS\obj\Debug\MainWindow.baml
+E:\HS_190930\HS\obj\Debug\HS.g.resources
+E:\HS_190930\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_190930\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_190930\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_190930\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_190930\HS\obj\Debug\HS.exe
+E:\HS_190930\HS\obj\Debug\HS.pdb
+E:\HS_1901003\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_1901003\HS\obj\Debug\MainWindow.g.cs
+E:\HS_1901003\HS\obj\Debug\App.g.cs
+E:\HS_1901003\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_1901003\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_1901003\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_1901003\HS\obj\Debug\HS.exe
+E:\HS_1901003\HS\obj\Debug\HS.pdb
+E:\HS_1901003\HS\bin\Debug\HS.exe.config
+E:\HS_1901003\HS\bin\Debug\HS.exe
+E:\HS_1901003\HS\bin\Debug\HS.pdb
+E:\HS_1901003\HS\bin\Debug\DefineLib.dll
+E:\HS_1901003\HS\bin\Debug\FunctionUC.dll
+E:\HS_1901003\HS\bin\Debug\NetworkLib.dll
+E:\HS_1901003\HS\bin\Debug\ShareLib.dll
+E:\HS_1901003\HS\bin\Debug\DefineLib.pdb
+E:\HS_1901003\HS\bin\Debug\FunctionUC.pdb
+E:\HS_1901003\HS\bin\Debug\NetworkLib.pdb
+E:\HS_1901003\HS\bin\Debug\ShareLib.pdb
+E:\HS_1901003\HS\obj\Debug\MainWindow.baml
+E:\HS_1901003\HS\obj\Debug\HS.g.resources
+E:\HS_1901003\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_1901003\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_1901003\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_1901003\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191003\HS\bin\Debug\HS.exe.config
+E:\HS_191003\HS\bin\Debug\HS.exe
+E:\HS_191003\HS\bin\Debug\HS.pdb
+E:\HS_191003\HS\bin\Debug\DefineLib.dll
+E:\HS_191003\HS\bin\Debug\FunctionUC.dll
+E:\HS_191003\HS\bin\Debug\NetworkLib.dll
+E:\HS_191003\HS\bin\Debug\ShareLib.dll
+E:\HS_191003\HS\bin\Debug\DefineLib.pdb
+E:\HS_191003\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191003\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191003\HS\bin\Debug\ShareLib.pdb
+E:\HS_191003\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191003\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191003\HS\obj\Debug\App.g.cs
+E:\HS_191003\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191003\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191003\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191003\HS\obj\Debug\MainWindow.baml
+E:\HS_191003\HS\obj\Debug\HS.g.resources
+E:\HS_191003\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191003\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191003\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_191003\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191003\HS\obj\Debug\HS.exe
+E:\HS_191003\HS\obj\Debug\HS.pdb
+E:\HS_191007\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191007\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191007\HS\obj\Debug\App.g.cs
+E:\HS_191007\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191007\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191007\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191007\HS\obj\Debug\HS.exe
+E:\HS_191007\HS\obj\Debug\HS.pdb
+E:\HS_191007\HS\bin\Debug\HS.exe.config
+E:\HS_191007\HS\bin\Debug\HS.exe
+E:\HS_191007\HS\bin\Debug\HS.pdb
+E:\HS_191007\HS\bin\Debug\DefineLib.dll
+E:\HS_191007\HS\bin\Debug\FunctionUC.dll
+E:\HS_191007\HS\bin\Debug\NetworkLib.dll
+E:\HS_191007\HS\bin\Debug\ShareLib.dll
+E:\HS_191007\HS\bin\Debug\DefineLib.pdb
+E:\HS_191007\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191007\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191007\HS\bin\Debug\ShareLib.pdb
+E:\HS_191007\HS\obj\Debug\MainWindow.baml
+E:\HS_191007\HS\obj\Debug\HS.g.resources
+E:\HS_191007\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191007\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191007\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_191007\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191008\HS\bin\Debug\HS.exe.config
+E:\HS_191008\HS\bin\Debug\HS.exe
+E:\HS_191008\HS\bin\Debug\HS.pdb
+E:\HS_191008\HS\bin\Debug\DefineLib.dll
+E:\HS_191008\HS\bin\Debug\FunctionUC.dll
+E:\HS_191008\HS\bin\Debug\NetworkLib.dll
+E:\HS_191008\HS\bin\Debug\ShareLib.dll
+E:\HS_191008\HS\bin\Debug\DefineLib.pdb
+E:\HS_191008\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191008\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191008\HS\bin\Debug\ShareLib.pdb
+E:\HS_191008\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191008\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191008\HS\obj\Debug\App.g.cs
+E:\HS_191008\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191008\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191008\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191008\HS\obj\Debug\MainWindow.baml
+E:\HS_191008\HS\obj\Debug\HS.g.resources
+E:\HS_191008\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191008\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191008\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_191008\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191008\HS\obj\Debug\HS.exe
+E:\HS_191008\HS\obj\Debug\HS.pdb
+E:\HS_191008\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191008\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191011 - 복사본\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191011 - 복사본\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191011 - 복사본\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191011 - 복사본\HS\obj\Debug\App.g.cs
+E:\HS_191011 - 복사본\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191011 - 복사본\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191011 - 복사본\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191011 - 복사본\HS\bin\Debug\HS.exe.config
+E:\HS_191011 - 복사본\HS\bin\Debug\HS.exe
+E:\HS_191011 - 복사본\HS\bin\Debug\HS.pdb
+E:\HS_191011 - 복사본\HS\bin\Debug\DefineLib.dll
+E:\HS_191011 - 복사본\HS\bin\Debug\FunctionUC.dll
+E:\HS_191011 - 복사본\HS\bin\Debug\NetworkLib.dll
+E:\HS_191011 - 복사본\HS\bin\Debug\ShareLib.dll
+E:\HS_191011 - 복사본\HS\bin\Debug\DefineLib.pdb
+E:\HS_191011 - 복사본\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191011 - 복사본\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191011 - 복사본\HS\bin\Debug\ShareLib.pdb
+E:\HS_191011 - 복사본\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191011 - 복사본\HS\obj\Debug\MainWindow.baml
+E:\HS_191011 - 복사본\HS\obj\Debug\HS.g.resources
+E:\HS_191011 - 복사본\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191011 - 복사본\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191011 - 복사본\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_191011 - 복사본\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191011 - 복사본\HS\obj\Debug\HS.exe
+E:\HS_191011 - 복사본\HS\obj\Debug\HS.pdb
+E:\HS_191015\HS\bin\Debug\HS.exe.config
+E:\HS_191015\HS\bin\Debug\HS.exe
+E:\HS_191015\HS\bin\Debug\HS.pdb
+E:\HS_191015\HS\bin\Debug\DefineLib.dll
+E:\HS_191015\HS\bin\Debug\FunctionUC.dll
+E:\HS_191015\HS\bin\Debug\NetworkLib.dll
+E:\HS_191015\HS\bin\Debug\ShareLib.dll
+E:\HS_191015\HS\bin\Debug\DefineLib.pdb
+E:\HS_191015\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191015\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191015\HS\bin\Debug\ShareLib.pdb
+E:\HS_191015\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191015\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191015\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191015\HS\obj\Debug\App.g.cs
+E:\HS_191015\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191015\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191015\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191015\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191015\HS\obj\Debug\MainWindow.baml
+E:\HS_191015\HS\obj\Debug\HS.g.resources
+E:\HS_191015\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191015\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191015\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_191015\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191015\HS\obj\Debug\HS.exe
+E:\HS_191015\HS\obj\Debug\HS.pdb
+E:\HS_191016\HS\bin\Debug\HS.exe.config
+E:\HS_191016\HS\bin\Debug\HS.exe
+E:\HS_191016\HS\bin\Debug\HS.pdb
+E:\HS_191016\HS\bin\Debug\DefineLib.dll
+E:\HS_191016\HS\bin\Debug\FunctionUC.dll
+E:\HS_191016\HS\bin\Debug\NetworkLib.dll
+E:\HS_191016\HS\bin\Debug\ShareLib.dll
+E:\HS_191016\HS\bin\Debug\DefineLib.pdb
+E:\HS_191016\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191016\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191016\HS\bin\Debug\ShareLib.pdb
+E:\HS_191016\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191016\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191016\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191016\HS\obj\Debug\App.g.cs
+E:\HS_191016\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191016\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191016\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191016\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191016\HS\obj\Debug\MainWindow.baml
+E:\HS_191016\HS\obj\Debug\HS.g.resources
+E:\HS_191016\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191016\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191016\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_191016\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191016\HS\obj\Debug\HS.exe
+E:\HS_191016\HS\obj\Debug\HS.pdb
+E:\HS_191021\HS\bin\Debug\HS.exe.config
+E:\HS_191021\HS\bin\Debug\HS.exe
+E:\HS_191021\HS\bin\Debug\HS.pdb
+E:\HS_191021\HS\bin\Debug\DefineLib.dll
+E:\HS_191021\HS\bin\Debug\FunctionUC.dll
+E:\HS_191021\HS\bin\Debug\NetworkLib.dll
+E:\HS_191021\HS\bin\Debug\ShareLib.dll
+E:\HS_191021\HS\bin\Debug\DefineLib.pdb
+E:\HS_191021\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191021\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191021\HS\bin\Debug\ShareLib.pdb
+E:\HS_191021\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191021\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191021\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191021\HS\obj\Debug\App.g.cs
+E:\HS_191021\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191021\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191021\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191021\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191021\HS\obj\Debug\MainWindow.baml
+E:\HS_191021\HS\obj\Debug\HS.g.resources
+E:\HS_191021\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191021\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191021\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_191021\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191021\HS\obj\Debug\HS.exe
+E:\HS_191021\HS\obj\Debug\HS.pdb
+E:\HS_191021 - 복사본\HS\bin\Debug\HS.exe.config
+E:\HS_191021 - 복사본\HS\bin\Debug\HS.exe
+E:\HS_191021 - 복사본\HS\bin\Debug\HS.pdb
+E:\HS_191021 - 복사본\HS\bin\Debug\DefineLib.dll
+E:\HS_191021 - 복사본\HS\bin\Debug\FunctionUC.dll
+E:\HS_191021 - 복사본\HS\bin\Debug\NetworkLib.dll
+E:\HS_191021 - 복사본\HS\bin\Debug\ShareLib.dll
+E:\HS_191021 - 복사본\HS\bin\Debug\DefineLib.pdb
+E:\HS_191021 - 복사본\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191021 - 복사본\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191021 - 복사본\HS\bin\Debug\ShareLib.pdb
+E:\HS_191021 - 복사본\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191021 - 복사본\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191021 - 복사본\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191021 - 복사본\HS\obj\Debug\App.g.cs
+E:\HS_191021 - 복사본\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191021 - 복사본\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191021 - 복사본\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191021 - 복사본\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191021 - 복사본\HS\obj\Debug\MainWindow.baml
+E:\HS_191021 - 복사본\HS\obj\Debug\HS.g.resources
+E:\HS_191021 - 복사본\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191021 - 복사본\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191021 - 복사본\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_191021 - 복사본\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191021 - 복사본\HS\obj\Debug\HS.exe
+E:\HS_191021 - 복사본\HS\obj\Debug\HS.pdb
+E:\HS_191021_socket\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191021_socket\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191021_socket\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191021_socket\HS\obj\Debug\App.g.cs
+E:\HS_191021_socket\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191021_socket\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191021_socket\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191021_socket\HS\obj\Debug\HS.exe
+E:\HS_191021_socket\HS\obj\Debug\HS.pdb
+E:\HS_191021_socket\HS\bin\Debug\HS.exe.config
+E:\HS_191021_socket\HS\bin\Debug\HS.exe
+E:\HS_191021_socket\HS\bin\Debug\HS.pdb
+E:\HS_191021_socket\HS\bin\Debug\DefineLib.dll
+E:\HS_191021_socket\HS\bin\Debug\FunctionUC.dll
+E:\HS_191021_socket\HS\bin\Debug\NetworkLib.dll
+E:\HS_191021_socket\HS\bin\Debug\ShareLib.dll
+E:\HS_191021_socket\HS\bin\Debug\DefineLib.pdb
+E:\HS_191021_socket\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191021_socket\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191021_socket\HS\bin\Debug\ShareLib.pdb
+E:\HS_191021_socket\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191021_socket\HS\obj\Debug\MainWindow.baml
+E:\HS_191021_socket\HS\obj\Debug\HS.g.resources
+E:\HS_191021_socket\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191021_socket\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191021_socket\HS\obj\Debug\HS.csproj.CoreCompileInputs.cache
+E:\HS_191021_socket\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191021_socket_1\HS\bin\Debug\HS.exe.config
+E:\HS_191021_socket_1\HS\bin\Debug\HS.exe
+E:\HS_191021_socket_1\HS\bin\Debug\HS.pdb
+E:\HS_191021_socket_1\HS\bin\Debug\DefineLib.dll
+E:\HS_191021_socket_1\HS\bin\Debug\FunctionUC.dll
+E:\HS_191021_socket_1\HS\bin\Debug\NetworkLib.dll
+E:\HS_191021_socket_1\HS\bin\Debug\ShareLib.dll
+E:\HS_191021_socket_1\HS\bin\Debug\DefineLib.pdb
+E:\HS_191021_socket_1\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191021_socket_1\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191021_socket_1\HS\bin\Debug\ShareLib.pdb
+E:\HS_191021_socket_1\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191021_socket_1\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191021_socket_1\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191021_socket_1\HS\obj\Debug\App.g.cs
+E:\HS_191021_socket_1\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191021_socket_1\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191021_socket_1\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191021_socket_1\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191021_socket_1\HS\obj\Debug\MainWindow.baml
+E:\HS_191021_socket_1\HS\obj\Debug\HS.g.resources
+E:\HS_191021_socket_1\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191021_socket_1\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191021_socket_1\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191021_socket_1\HS\obj\Debug\HS.exe
+E:\HS_191021_socket_1\HS\obj\Debug\HS.pdb
+E:\HS_191021_socket_1 - 복사본\HS\bin\Debug\HS.exe.config
+E:\HS_191021_socket_1 - 복사본\HS\bin\Debug\HS.exe
+E:\HS_191021_socket_1 - 복사본\HS\bin\Debug\HS.pdb
+E:\HS_191021_socket_1 - 복사본\HS\bin\Debug\DefineLib.dll
+E:\HS_191021_socket_1 - 복사본\HS\bin\Debug\FunctionUC.dll
+E:\HS_191021_socket_1 - 복사본\HS\bin\Debug\NetworkLib.dll
+E:\HS_191021_socket_1 - 복사본\HS\bin\Debug\ShareLib.dll
+E:\HS_191021_socket_1 - 복사본\HS\bin\Debug\DefineLib.pdb
+E:\HS_191021_socket_1 - 복사본\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191021_socket_1 - 복사본\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191021_socket_1 - 복사본\HS\bin\Debug\ShareLib.pdb
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\App.g.cs
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\MainWindow.baml
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\HS.g.resources
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\HS.exe
+E:\HS_191021_socket_1 - 복사본\HS\obj\Debug\HS.pdb
+E:\HS_191106\HS\bin\Debug\HS.exe.config
+E:\HS_191106\HS\bin\Debug\HS.exe
+E:\HS_191106\HS\bin\Debug\HS.pdb
+E:\HS_191106\HS\bin\Debug\DefineLib.dll
+E:\HS_191106\HS\bin\Debug\FunctionUC.dll
+E:\HS_191106\HS\bin\Debug\NetworkLib.dll
+E:\HS_191106\HS\bin\Debug\ShareLib.dll
+E:\HS_191106\HS\bin\Debug\DefineLib.pdb
+E:\HS_191106\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191106\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191106\HS\bin\Debug\ShareLib.pdb
+E:\HS_191106\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191106\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191106\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191106\HS\obj\Debug\App.g.cs
+E:\HS_191106\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191106\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191106\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191106\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191106\HS\obj\Debug\MainWindow.baml
+E:\HS_191106\HS\obj\Debug\HS.g.resources
+E:\HS_191106\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191106\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191106\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191106\HS\obj\Debug\HS.exe
+E:\HS_191106\HS\obj\Debug\HS.pdb
+E:\HS_191113\HS\bin\Debug\HS.exe.config
+E:\HS_191113\HS\bin\Debug\HS.exe
+E:\HS_191113\HS\bin\Debug\HS.pdb
+E:\HS_191113\HS\bin\Debug\DefineLib.dll
+E:\HS_191113\HS\bin\Debug\FunctionUC.dll
+E:\HS_191113\HS\bin\Debug\NetworkLib.dll
+E:\HS_191113\HS\bin\Debug\ShareLib.dll
+E:\HS_191113\HS\bin\Debug\DefineLib.pdb
+E:\HS_191113\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191113\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191113\HS\bin\Debug\ShareLib.pdb
+E:\HS_191113\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191113\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191113\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191113\HS\obj\Debug\App.g.cs
+E:\HS_191113\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191113\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191113\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191113\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191113\HS\obj\Debug\MainWindow.baml
+E:\HS_191113\HS\obj\Debug\HS.g.resources
+E:\HS_191113\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191113\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191113\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191113\HS\obj\Debug\HS.exe
+E:\HS_191113\HS\obj\Debug\HS.pdb
+E:\HS_191119\HS\bin\Debug\HS.exe.config
+E:\HS_191119\HS\bin\Debug\HS.exe
+E:\HS_191119\HS\bin\Debug\HS.pdb
+E:\HS_191119\HS\bin\Debug\DefineLib.dll
+E:\HS_191119\HS\bin\Debug\FunctionUC.dll
+E:\HS_191119\HS\bin\Debug\NetworkLib.dll
+E:\HS_191119\HS\bin\Debug\ShareLib.dll
+E:\HS_191119\HS\bin\Debug\DefineLib.pdb
+E:\HS_191119\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191119\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191119\HS\bin\Debug\ShareLib.pdb
+E:\HS_191119\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191119\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191119\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191119\HS\obj\Debug\App.g.cs
+E:\HS_191119\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191119\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191119\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191119\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191119\HS\obj\Debug\MainWindow.baml
+E:\HS_191119\HS\obj\Debug\HS.g.resources
+E:\HS_191119\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191119\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191119\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191119\HS\obj\Debug\HS.exe
+E:\HS_191119\HS\obj\Debug\HS.pdb
+E:\HS_191119 - 복사본\HS\bin\Debug\HS.exe.config
+E:\HS_191119 - 복사본\HS\bin\Debug\HS.exe
+E:\HS_191119 - 복사본\HS\bin\Debug\HS.pdb
+E:\HS_191119 - 복사본\HS\bin\Debug\DefineLib.dll
+E:\HS_191119 - 복사본\HS\bin\Debug\FunctionUC.dll
+E:\HS_191119 - 복사본\HS\bin\Debug\NetworkLib.dll
+E:\HS_191119 - 복사본\HS\bin\Debug\ShareLib.dll
+E:\HS_191119 - 복사본\HS\bin\Debug\DefineLib.pdb
+E:\HS_191119 - 복사본\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191119 - 복사본\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191119 - 복사본\HS\bin\Debug\ShareLib.pdb
+E:\HS_191119 - 복사본\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191119 - 복사본\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191119 - 복사본\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191119 - 복사본\HS\obj\Debug\App.g.cs
+E:\HS_191119 - 복사본\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191119 - 복사본\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191119 - 복사본\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191119 - 복사본\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191119 - 복사본\HS\obj\Debug\MainWindow.baml
+E:\HS_191119 - 복사본\HS\obj\Debug\HS.g.resources
+E:\HS_191119 - 복사본\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191119 - 복사본\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191119 - 복사본\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191119 - 복사본\HS\obj\Debug\HS.exe
+E:\HS_191119 - 복사본\HS\obj\Debug\HS.pdb
+E:\HS_191120\HS\bin\Debug\HS.exe.config
+E:\HS_191120\HS\bin\Debug\HS.exe
+E:\HS_191120\HS\bin\Debug\HS.pdb
+E:\HS_191120\HS\bin\Debug\DefineLib.dll
+E:\HS_191120\HS\bin\Debug\FunctionUC.dll
+E:\HS_191120\HS\bin\Debug\NetworkLib.dll
+E:\HS_191120\HS\bin\Debug\ShareLib.dll
+E:\HS_191120\HS\bin\Debug\DefineLib.pdb
+E:\HS_191120\HS\bin\Debug\FunctionUC.pdb
+E:\HS_191120\HS\bin\Debug\NetworkLib.pdb
+E:\HS_191120\HS\bin\Debug\ShareLib.pdb
+E:\HS_191120\HS\obj\Debug\HS.csprojAssemblyReference.cache
+E:\HS_191120\HS\obj\Debug\ConfigWindow.g.cs
+E:\HS_191120\HS\obj\Debug\MainWindow.g.cs
+E:\HS_191120\HS\obj\Debug\App.g.cs
+E:\HS_191120\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HS_191120\HS\obj\Debug\HS_MarkupCompile.cache
+E:\HS_191120\HS\obj\Debug\HS_MarkupCompile.lref
+E:\HS_191120\HS\obj\Debug\ConfigWindow.baml
+E:\HS_191120\HS\obj\Debug\MainWindow.baml
+E:\HS_191120\HS\obj\Debug\HS.g.resources
+E:\HS_191120\HS\obj\Debug\HS.Properties.Resources.resources
+E:\HS_191120\HS\obj\Debug\HS.csproj.GenerateResource.cache
+E:\HS_191120\HS\obj\Debug\HS.csproj.CopyComplete
+E:\HS_191120\HS\obj\Debug\HS.exe
+E:\HS_191120\HS\obj\Debug\HS.pdb
+C:\Users\hyna\Desktop\HS_191120\HS\bin\Debug\HS.exe.config
+C:\Users\hyna\Desktop\HS_191120\HS\bin\Debug\HS.exe
+C:\Users\hyna\Desktop\HS_191120\HS\bin\Debug\HS.pdb
+C:\Users\hyna\Desktop\HS_191120\HS\bin\Debug\DefineLib.dll
+C:\Users\hyna\Desktop\HS_191120\HS\bin\Debug\FunctionUC.dll
+C:\Users\hyna\Desktop\HS_191120\HS\bin\Debug\NetworkLib.dll
+C:\Users\hyna\Desktop\HS_191120\HS\bin\Debug\ShareLib.dll
+C:\Users\hyna\Desktop\HS_191120\HS\bin\Debug\DefineLib.pdb
+C:\Users\hyna\Desktop\HS_191120\HS\bin\Debug\FunctionUC.pdb
+C:\Users\hyna\Desktop\HS_191120\HS\bin\Debug\NetworkLib.pdb
+C:\Users\hyna\Desktop\HS_191120\HS\bin\Debug\ShareLib.pdb
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\HS.csprojAssemblyReference.cache
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\ConfigWindow.g.cs
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\MainWindow.g.cs
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\App.g.cs
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\HS_MarkupCompile.cache
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\HS_MarkupCompile.lref
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\ConfigWindow.baml
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\MainWindow.baml
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\HS.g.resources
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\HS.Properties.Resources.resources
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\HS.csproj.GenerateResource.cache
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\HS.csproj.CopyComplete
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\HS.exe
+C:\Users\hyna\Desktop\HS_191120\HS\obj\Debug\HS.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\HS\bin\Debug\HS.exe.config
+C:\Users\hyna\Desktop\HS\HS_191120\HS\bin\Debug\HS.exe
+C:\Users\hyna\Desktop\HS\HS_191120\HS\bin\Debug\HS.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\HS\bin\Debug\DefineLib.dll
+C:\Users\hyna\Desktop\HS\HS_191120\HS\bin\Debug\FunctionUC.dll
+C:\Users\hyna\Desktop\HS\HS_191120\HS\bin\Debug\NetworkLib.dll
+C:\Users\hyna\Desktop\HS\HS_191120\HS\bin\Debug\ShareLib.dll
+C:\Users\hyna\Desktop\HS\HS_191120\HS\bin\Debug\DefineLib.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\HS\bin\Debug\FunctionUC.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\HS\bin\Debug\NetworkLib.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\HS\bin\Debug\ShareLib.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\HS.csprojAssemblyReference.cache
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\MainWindow.g.cs
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\App.g.cs
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\HS_MarkupCompile.cache
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\HS_MarkupCompile.lref
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\MainWindow.baml
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\HS.g.resources
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\HS.Properties.Resources.resources
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\HS.csproj.GenerateResource.cache
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\HS.csproj.CopyComplete
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\HS.exe
+C:\Users\hyna\Desktop\HS\HS_191120\HS\obj\Debug\HS.pdb

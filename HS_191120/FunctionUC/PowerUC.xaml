@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="FunctionUC.PowerUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FunctionUC"
+             mc:Ignorable="d" 
+             Height="Auto" Width="Auto">
+    
+    <UserControl.Resources>
+        <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Background" Value="#DBE2EF"/>
+        </Style>
+    </UserControl.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <!--<RowDefinition Height="45"/>-->
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" Name="PowerOnBtn" Content="ON" Margin="0,0,0,2.5" Click="PowerOnBtn_Click" Style="{StaticResource ButtonStyle}"/>
+        <Button Grid.Row="1" Name="PowerOffBtn" Content="OFF" Margin="0,2.5" Click="PowerOffBtn_Click" Style="{StaticResource ButtonStyle}"/>
+        <!--<Button Grid.Row="2" Name="PowerResetBtn" Content="RESET" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,2.5,0,0" Click="PowerResetBtn_Click"/>-->
+    </Grid>
+</UserControl>

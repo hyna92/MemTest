@@ -1,0 +1,23 @@
+Time			Except	Board	Event		Data
+[2019-11-14 13:17:32.97]			[Loaded]		Application
+[2019-11-14 13:18:12.82]			[Loaded]		Application
+[2019-11-14 13:23:27.41]			[Loaded]		Application
+[2019-11-14 14:07:55.02]			[Loaded]		Application
+[2019-11-14 14:16:17.19]			[Loaded]		Application
+[2019-11-14 14:16:45.82]			[Click]		Test Pause
+[2019-11-14 14:16:47.16]			[Click]		Test Run
+[2019-11-14 14:16:48.46]			[Click]		Test Run
+[2019-11-14 14:16:50.09]			[Click]		Test Run
+[2019-11-14 14:16:50.76]			[Click]		Test Pause
+[2019-11-14 14:17:07.47]			[Click]		Test Run
+[2019-11-14 14:17:12.22]			[Click]		Test Stop
+[2019-11-14 14:17:14.71]			[Click]		Test Run
+[2019-11-14 14:17:16.74]			[Click]		Test Pause
+[2019-11-14 14:17:19.38]			[Click]		Test Run
+[2019-11-14 14:17:22.71]			[Click]		Test Stop
+[2019-11-14 14:17:26.02]			[Click]		Test Run
+[2019-11-14 14:17:27.13]			[Click]		Test Pause
+[2019-11-14 14:19:27.92]			[Closed]		Application
+[2019-11-14 14:38:37.03]			[Loaded]		Application
+[2019-11-14 14:41:24.54]			[Closed]		Application
+[2019-11-14 14:41:40.90]			[Loaded]		Application

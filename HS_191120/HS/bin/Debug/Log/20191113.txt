@@ -1,0 +1,99 @@
+Time			Except	Board	Event		Data
+[2019-11-13 13:39:32.63]			[Loaded]		Application
+[2019-11-13 13:40:14.75]			[Loaded]		Application
+[2019-11-13 13:40:42.80]			[Closed]		Application
+[2019-11-13 13:40:55.43]			[Loaded]		Application
+[2019-11-13 13:41:09.94]			[Click]		Test Run
+[2019-11-13 13:42:23.69]			[Click]		Test Pause
+[2019-11-13 13:42:28.36]			[Click]		Test Run
+[2019-11-13 13:42:35.42]			[Click]		Test Pause
+[2019-11-13 13:42:39.53]			[Click]		Test Run
+[2019-11-13 13:42:46.83]			[Click]		Test Pause
+[2019-11-13 13:42:50.76]			[Click]		Test Run
+[2019-11-13 13:43:00.66]			[Click]		Test Stop
+[2019-11-13 13:43:05.37]			[Click]		Test Run
+[2019-11-13 13:43:19.32]			[Click]		Test Pause
+[2019-11-13 13:43:21.13]			[Click]		Test Stop
+[2019-11-13 13:44:15.84]			[Click]		Test Run
+[2019-11-13 13:44:18.18]			[Click]		Test Pause
+[2019-11-13 13:44:26.51]			[Click]		Test Run
+[2019-11-13 13:44:38.04]			[Click]		Test Run
+[2019-11-13 13:44:42.44]			[Click]		Test Stop
+[2019-11-13 13:44:58.27]			[Closed]		Application
+[2019-11-13 14:07:31.30]			[Loaded]		Application
+[2019-11-13 14:09:51.75]			[Loaded]		Application
+[2019-11-13 14:09:58.82]			[Click]		Power On
+[2019-11-13 14:10:01.08]			[Show]		MessageBox > Please Select the Board
+[2019-11-13 14:10:03.01]			[Click]		Power On
+[2019-11-13 14:10:31.86]			[Loaded]		Application
+[2019-11-13 14:10:39.60]			[Click]		Power On
+[2019-11-13 14:10:47.83]			[Loaded]		Application
+[2019-11-13 14:10:53.10]			[Click]		Power Off
+[2019-11-13 14:24:02.55]			[Loaded]		Application
+[2019-11-13 14:26:34.71]			[Click]		Test Run
+[2019-11-13 14:26:46.99]			[Click]		Test Pause
+[2019-11-13 14:26:49.45]			[Click]		Test Run
+[2019-11-13 14:26:51.82]			[Click]		Test Stop
+[2019-11-13 14:26:53.84]			[Click]		Test Run
+[2019-11-13 14:26:56.40]			[Closed]		Application
+[2019-11-13 14:27:15.51]			[Loaded]		Application
+[2019-11-13 14:28:10.76]			[Click]		Test Run
+[2019-11-13 14:28:19.53]			[Click]		Test Run
+[2019-11-13 14:28:24.57]			[Click]		Test Pause
+[2019-11-13 14:28:50.06]			[Click]		Test Pause
+[2019-11-13 14:29:21.99]			[Click]		Test Pause
+[2019-11-13 14:34:01.62]			[Loaded]		Application
+[2019-11-13 14:34:22.75]			[Click]		Test Pause
+[2019-11-13 14:34:37.57]			[Click]		Test Run
+[2019-11-13 14:35:12.05]			[Click]		Test Stop
+[2019-11-13 14:35:22.42]			[Click]		Test Stop
+[2019-11-13 14:39:36.65]			[Loaded]		Application
+[2019-11-13 14:39:54.16]			[Click]		Test Stop
+[2019-11-13 14:40:07.98]			[Click]		Test Stop
+[2019-11-13 14:40:13.92]			[Click]		Test Run
+[2019-11-13 14:40:21.56]			[Click]		Test Pause
+[2019-11-13 14:40:28.39]			[Click]		Test Pause
+[2019-11-13 14:40:37.47]			[Click]		Test Stop
+[2019-11-13 14:40:40.98]			[Click]		Test Pause
+[2019-11-13 14:41:49.74]			[Loaded]		Application
+[2019-11-13 14:41:55.32]			[Click]		Test Run
+[2019-11-13 14:42:09.40]			[Click]		Test Run
+[2019-11-13 14:42:11.94]			[Click]		Test Run
+[2019-11-13 14:42:13.41]			[Click]		Test Pause
+[2019-11-13 14:42:17.81]			[Click]		Test Pause
+[2019-11-13 14:42:18.99]			[Click]		Test Pause
+[2019-11-13 14:42:20.18]			[Click]		Test Run
+[2019-11-13 14:42:23.84]			[Click]		Test Run
+[2019-11-13 14:42:26.10]			[Click]		Test Run
+[2019-11-13 14:42:37.44]			[Click]		Test Run
+[2019-11-13 14:42:51.05]			[Click]		Test Run
+[2019-11-13 14:47:10.13]			[Loaded]		Application
+[2019-11-13 14:47:18.04]			[Click]		Test Run
+[2019-11-13 14:47:29.44]			[Click]		Test Run
+[2019-11-13 14:47:40.39]			[Click]		Test Pause
+[2019-11-13 14:47:42.46]			[Click]		Test Pause
+[2019-11-13 14:47:43.35]			[Click]		Test Pause
+[2019-11-13 14:47:44.17]			[Click]		Test Pause
+[2019-11-13 14:47:44.76]			[Click]		Test Pause
+[2019-11-13 14:47:45.71]			[Click]		Test Run
+[2019-11-13 14:47:50.11]			[Click]		Test Run
+[2019-11-13 14:47:52.74]			[Click]		Test Pause
+[2019-11-13 14:47:55.26]			[Click]		Test Pause
+[2019-11-13 14:47:57.33]			[Click]		Test Stop
+[2019-11-13 14:47:58.65]			[Click]		Test Stop
+[2019-11-13 14:48:01.40]			[Click]		Test Stop
+[2019-11-13 14:48:02.29]			[Click]		Test Pause
+[2019-11-13 14:48:03.41]			[Click]		Test Pause
+[2019-11-13 14:48:04.58]			[Click]		Test Run
+[2019-11-13 14:48:06.40]			[Click]		Test Pause
+[2019-11-13 14:48:07.82]			[Click]		Test Stop
+[2019-11-13 14:48:11.34]			[Click]		Test Run
+[2019-11-13 14:48:12.80]			[Click]		Test Stop
+[2019-11-13 14:48:13.55]			[Click]		Test Pause
+[2019-11-13 14:48:58.34]			[Closed]		Application
+[2019-11-13 14:51:53.15]			[Loaded]		Application
+[2019-11-13 15:09:46.80]			[Loaded]		Application
+[2019-11-13 15:09:57.91]			[Click]		Power On
+[2019-11-13 15:11:14.84]			[Loaded]		Application
+[2019-11-13 15:11:20.61]			[Click]		Power On
+[2019-11-13 15:23:32.44]			[Loaded]		Application

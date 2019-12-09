@@ -1,0 +1,336 @@
+﻿<Window x:Class="HS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HS"
+        mc:Ignorable="d"
+        Title="HS" Height="1000" Width="1500" Icon="/Images/Memory.ico"
+        WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    
+    <Window.Resources>
+        <Style x:Key="TransformLabel" TargetType="{x:Type Label}">
+            <Setter Property="LayoutTransform">
+                <Setter.Value>
+                    <RotateTransform Angle="270"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="#F9F7F7"/>
+            <Setter Property="Background" Value="#3F72AF"/>
+        </Style>
+
+        <Style x:Key="CenterContentCell" TargetType="{x:Type DataGridCell}">
+            <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+        </Style>
+
+        <Style x:Key="CenterContentHeader" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <local:ConnectStateConverter x:Key="connectstateconverter"/>
+        <local:PowerStateConverter x:Key="powerstateconverter"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid Background="#F9F7F7">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.1*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="8*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="0.1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Column="1" Source="Images/Memory.ico"/>
+                <Label Grid.Column="2" Content=" E2933 Memory Tester (v1.0.0)" VerticalContentAlignment="Center" FontSize="38" FontWeight="ExtraBold" Foreground="Black"/>
+                <Image Grid.Column="3" Source="Images/CI.png"/>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0" Margin="0,5,5,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="6*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="1.2*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Column="0" Grid.Row="0" Content="POWER" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="5,5,0,2.5" Style="{StaticResource TransformLabel}"/>
+                    <Label Grid.Column="0" Grid.Row="2" Content="VOLT CONTROL" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="5,2.5,0,2.5" Style="{StaticResource TransformLabel}"/>
+                    <Label Grid.Column="0" Grid.Row="4" Content="TEST" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="5,2.5,0,5" Style="{StaticResource TransformLabel}"/>
+                    <Label Grid.Column="0" Grid.Row="6" Content="KVM" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="5,2.5,0,5" Style="{StaticResource TransformLabel}"/>
+
+                    <Grid Grid.Column="1" Grid.Row="0" Name="PowerFunGrid" Margin="5"/>
+                    <Grid Grid.Column="1" Grid.Row="2" Name="VoltFunGrid" Margin="5"/>
+                    <Grid Grid.Column="1" Grid.Row="4" Name="TestFunGrid" Margin="5"/>
+                    <Grid Grid.Column="1" Grid.Row="6" Name="KvmFunGrid" Margin="5"/>
+                    <Grid Grid.ColumnSpan="2" Grid.Row="8" Name="SerialConfigFunGrid" Margin="5,0,5,5"/>
+
+                    <Separator Grid.ColumnSpan="2" Grid.Row="1" Background="Black"/>
+                    <Separator Grid.ColumnSpan="2" Grid.Row="3" Background="Black"/>
+                    <Separator Grid.ColumnSpan="2" Grid.Row="5" Background="Black"/>
+                    <!--<Separator Grid.ColumnSpan="2" Grid.Row="7" Background="Black"/>-->
+                </Grid>
+
+                <Grid Grid.Column="1" Margin="5">
+                    <DataGrid Name="MainTable" FontSize="15" IsReadOnly="True" AutoGenerateColumns="False" CanUserSortColumns="False" SelectionMode="Extended" Margin="5" RowDetailsVisibilityMode="Collapsed" SelectionChanged="MainTable_SelectionChanged" ColumnHeaderStyle="{StaticResource CenterContentHeader}" MouseRightButtonUp="MainTable_MouseRightButtonUp">
+                        <DataGrid.Resources>
+                            <Style TargetType="DataGridRow">
+                                <Style.Resources>
+                                    <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="LightSteelBlue"/>
+                                </Style.Resources>
+                                <Setter Property="Height" Value="Auto"/>
+                                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                <!--{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}, Path=ActualHeight}"/>-->
+                                <EventSetter Event="MouseDoubleClick" Handler="DataGridRow_MouseDoubleClick"/>
+                            </Style>
+                        </DataGrid.Resources>
+
+                        <DataGrid.RowHeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock Width="70" Text="{Binding Path=DataContext.BoardNum, RelativeSource={RelativeSource AncestorType=DataGridRow}}" TextAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGrid.RowHeaderTemplate>
+
+                        <!--Define "TEST DETAIL VIEW"-->
+                        <DataGrid.RowDetailsTemplate>
+                            <DataTemplate>
+                                <Grid Height="350" Background="#DBE2EF">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="1*"/>
+                                        <RowDefinition Height="5*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="5,5,5,0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        
+                                        <Label Grid.Row="0" Grid.Column="0" Content="CPU : "/>
+                                        <Label Grid.Row="0" Grid.Column="1" Content="{Binding Path=Cpu}"/>
+                                        <Label Grid.Row="1" Grid.Column="0" Content="MEMORY : "/>
+                                        <Label Grid.Row="1" Grid.Column="1" Content="{Binding Path=Memory}"/>
+
+                                    </Grid>
+                                    
+                                    <!--TEST LISTVIEW-->
+                                    <Grid Grid.Row="1" Grid.Column="0" Margin="5,5,0,5">
+                                    <!--DataGrid-->
+                                    <!--<DataGrid Grid.Row="0" Margin="2.5" ItemsSource="{Binding TestItemList}">
+                                        <DataGridTextColumn Width="50" Header="NO." Binding="{Binding Path=ItemNumber}"/>
+                                        <DataGridTextColumn Width="Auto" Header="ITEM NAME" Binding="{Binding Path=ItemName}"/>
+                                        <DataGridTemplateColumn Width="Auto" Header="PROGRESS">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Grid>
+                                                        <ProgressBar Minimum="0" Maximum="100" Value="{Binding ItemProgress}"/>
+                                                        <TextBlock Text="{Binding ItemProgress}" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+
+                                        </DataGridTemplateColumn>
+                                    </DataGrid>-->
+                                        <!--ListView-->
+                                        <ListView Margin="1" ItemsSource="{Binding TestItemList}">
+                                            <ListView.View>
+                                                <GridView>
+                                                    <GridViewColumn Header="NO." Width="Auto" DisplayMemberBinding="{Binding ItemNumber}">
+                                                        <!--<GridViewColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <TextBlock TextAlignment="Center" Text="{Binding ItemNumber}"/>
+                                                            </DataTemplate>
+                                                        </GridViewColumn.CellTemplate>-->
+                                                    </GridViewColumn>
+                                                    <GridViewColumn Header="ITEM NAME" Width="150" DisplayMemberBinding="{Binding ItemName}"/>
+                                                    <GridViewColumn Header="PROGRESS" Width="300">
+                                                        <GridViewColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Grid>
+                                                                    <ProgressBar Width="200" Minimum="0" Maximum="100" Value="{Binding ItemProgress}"/>
+                                                                    <TextBlock Text="{Binding ItemProgress}" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                                                </Grid>
+                                                            </DataTemplate>
+                                                        </GridViewColumn.CellTemplate>
+                                                    </GridViewColumn>
+                                                </GridView>
+                                            </ListView.View>
+
+                                            <ListView.Resources>
+                                                <Style TargetType="{x:Type ListViewItem}">
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding ItemState}" Value="WAIT">
+                                                            <Setter Property="Background" Value="White"/>
+                                                        </DataTrigger>
+                                                        <DataTrigger Binding="{Binding ItemState}" Value="TEST">
+                                                            <Setter Property="Background" Value="Yellow"/>
+                                                        </DataTrigger>
+                                                        <DataTrigger Binding="{Binding ItemState}" Value="PAUSE">
+                                                            <Setter Property="Background" Value="DarkOrange"/>
+                                                        </DataTrigger>
+                                                        <DataTrigger Binding="{Binding ItemState}" Value="PASS">
+                                                            <Setter Property="Background" Value="LawnGreen"/>
+                                                        </DataTrigger>
+                                                        <DataTrigger Binding="{Binding ItemState}" Value="FAIL">
+                                                            <Setter Property="Background" Value="Red"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </ListView.Resources>
+                                        </ListView>
+                                    </Grid>
+
+                                    <!--TEST ERROR MSG-->
+                                    <Grid Grid.Row="1" Grid.Column="1" Margin="0,5,5,5">
+                                        <ListView Margin="1" ItemsSource="{Binding ErrorList}">
+                                            <ListView.View>
+                                                <GridView>
+                                                    <GridViewColumn Header="COUNT" Width="70" DisplayMemberBinding="{Binding ErrorCount}"/>
+                                                    <GridViewColumn Header="ITEM NO." Width="70" DisplayMemberBinding="{Binding ErrorIndex}"/>
+                                                    <GridViewColumn Header="ERROR ADDRESS" Width="300" DisplayMemberBinding="{Binding ErrorAddress}"/>
+                                                </GridView>
+                                            </ListView.View>
+                                        </ListView>
+                                    </Grid>
+
+                                </Grid>
+                            </DataTemplate>
+                        </DataGrid.RowDetailsTemplate>
+
+
+                        <!--Define "DataGrid Colmns"-->
+                        <DataGrid.Columns>
+                            <!--<DataGridTextColumn Width="Auto" Header="NO." Binding="{Binding BoardNum, StringFormat={}{0:d2}}" CellStyle="{StaticResource CenterContentCell}"/>-->
+                            <!--POWER STATUS-->
+                            <DataGridTextColumn Width="1*" Header="POWER" Binding="{Binding PowerState, Converter={StaticResource powerstateconverter}}" CellStyle="{StaticResource CenterContentCell}">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Style.Triggers>
+                                            <Trigger Property="Text" Value="OFF">
+                                                <Setter Property="Background" Value="Transparent"/>
+                                                <Setter Property="Foreground" Value="Black"/>
+                                            </Trigger>
+                                            <Trigger Property="Text" Value="ON">
+                                                <Setter Property="Background" Value="#232E66"/>
+                                                <Setter Property="Foreground" Value="White"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            
+                            <!--CONNECT STATUS-->
+                            <DataGridTextColumn Width="1*" Header="CONNECT" Binding="{Binding ConnectState, Converter={StaticResource connectstateconverter}}" CellStyle="{StaticResource CenterContentCell}">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Style.Triggers>
+                                            <Trigger Property="Text" Value="OFFLINE">
+                                                <Setter Property="Background" Value="Transparent"/>
+                                                <Setter Property="Foreground" Value="Black"/>
+                                            </Trigger>
+                                            <Trigger Property="Text" Value="ONLINE">
+                                                <Setter Property="Background" Value="#232E66"/>
+                                                <Setter Property="Foreground" Value="White"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!--EVENT MESSAGE-->
+                            <DataGridTextColumn Width="Auto" Header="EVENT MSG." Binding="{Binding Path=EventMessage}" CellStyle="{StaticResource CenterContentCell}"/>
+
+                            <!--VOLTAGE-->
+                            <DataGridTextColumn Width="2*" Header="VddQ" Binding="{Binding Path=VddQ}" CellStyle="{StaticResource CenterContentCell}"/>
+
+                            <!--TEST STATUS-->
+                            <DataGridTextColumn Width="3*" Header="TEST STATE" Binding="{Binding Path=TestString}" CellStyle="{StaticResource CenterContentCell}">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Style.Triggers>
+                                            <!--<DataTrigger Binding="{Binding TestString}" Value="READY">
+                                        <Setter Property="Background" Value="Transparent"/>
+                                        <Setter Property="Foreground" Value="Black"/>
+                                    </DataTrigger>-->
+                                            <DataTrigger Binding="{Binding TestString}" Value="RUNNING">
+                                                <Setter Property="Background" Value="Yellow"/>
+                                                <Setter Property="Foreground" Value="Black"/>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding TestString}" Value="PAUSE">
+                                                <Setter Property="Background" Value="DarkOrange"/>
+                                                <Setter Property="Foreground" Value="Black"/>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding TestString}" Value="STOP">
+                                                <Setter Property="Background" Value="Red"/>
+                                                <Setter Property="Foreground" Value="Black"/>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding TestString}" Value="FAIL">
+                                                <Setter Property="Background" Value="Red"/>
+                                                <Setter Property="Foreground" Value="Black"/>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding TestString}" Value="PASS">
+                                                <Setter Property="Background" Value="Lime"/>
+                                                <Setter Property="Foreground" Value="Black"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <DataGridTemplateColumn Width="3*" Header="TOTAL PROGRESS">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <ProgressBar Minimum="0" Maximum="100" Value="{Binding TestTotalProgress}"/>
+                                            <TextBlock Text="{Binding TestTotalProgress}" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                        </Grid>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                            <!--<DataGridTextColumn Width="5*" Header="MEMORY" Binding="{Binding Path=Memory}" CellStyle="{StaticResource CenterContentCell}"/>
+                            <DataGridTextColumn Width="5*" Header="CPU" Binding="{Binding Path=Cpu}" CellStyle="{StaticResource CenterContentCell}"/>-->
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+
+            </Grid>
+            
+            
+        </Grid>
+    </Grid>
+</Window>

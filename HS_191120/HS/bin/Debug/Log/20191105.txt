@@ -1,0 +1,89 @@
+Time			Except	Board	Event		Data
+[2019-11-05 09:20:45.86]			[Loaded]		Application
+[2019-11-05 09:21:06.89]			[Closed]		Application
+[2019-11-05 09:21:13.22]			[Loaded]		Application
+[2019-11-05 09:21:15.87]			[Closed]		Application
+[2019-11-05 09:21:22.09]			[Loaded]		Application
+[2019-11-05 09:21:23.86]			[Closed]		Application
+[2019-11-05 09:21:30.66]			[Loaded]		Application
+[2019-11-05 09:21:32.48]			[Closed]		Application
+[2019-11-05 09:21:57.37]			[Loaded]		Application
+[2019-11-05 09:22:04.84]			[Closed]		Application
+[2019-11-05 09:35:24.14]			[Loaded]		Application
+[2019-11-05 09:41:22.35]			[Closed]		Application
+[2019-11-05 09:41:30.67]			[Loaded]		Application
+[2019-11-05 09:41:41.18]			[Closed]		Application
+[2019-11-05 09:42:20.40]			[Loaded]		Application
+[2019-11-05 09:42:31.40]			[Loaded]		Application
+[2019-11-05 09:42:36.87]			[Closed]		Application
+[2019-11-05 09:42:51.48]			[Loaded]		Application
+[2019-11-05 09:43:00.32]			[Closed]		Application
+[2019-11-05 09:43:08.36]			[Loaded]		Application
+[2019-11-05 09:43:16.39]			[Closed]		Application
+[2019-11-05 09:43:29.22]			[Loaded]		Application
+[2019-11-05 09:43:39.58]			[Closed]		Application
+[2019-11-05 09:43:58.04]			[Loaded]		Application
+[2019-11-05 09:44:10.26]			[Closed]		Application
+[2019-11-05 09:46:09.32]			[Loaded]		Application
+[2019-11-05 09:46:35.08]			[Closed]		Application
+[2019-11-05 09:46:51.46]			[Loaded]		Application
+[2019-11-05 09:47:09.48]			[Closed]		Application
+[2019-11-05 09:47:46.05]			[Loaded]		Application
+[2019-11-05 09:48:40.51]			[Closed]		Application
+[2019-11-05 09:51:18.92]			[Loaded]		Application
+[2019-11-05 09:51:50.67]			[Closed]		Application
+[2019-11-05 09:52:50.10]			[Loaded]		Application
+[2019-11-05 09:53:36.54]			[Closed]		Application
+[2019-11-05 09:54:16.92]			[Loaded]		Application
+[2019-11-05 09:54:53.48]			[Click]		Test Run
+[2019-11-05 09:56:53.76]			[Click]		Test Pause
+[2019-11-05 09:57:02.25]			[Click]		Test Pause
+[2019-11-05 09:57:21.13]			[Click]		Test Stop
+[2019-11-05 09:57:43.77]			[Click]		Test Run
+[2019-11-05 09:58:13.21]			[Closed]		Application
+[2019-11-05 09:58:25.29]			[Loaded]		Application
+[2019-11-05 09:59:19.53]			[Click]		Power Off
+[2019-11-05 09:59:30.49]			[Click]		Power On
+[2019-11-05 09:59:43.95]			[Click]		Power Off
+[2019-11-05 09:59:48.25]			[Click]		Power On
+[2019-11-05 10:00:15.56]			[Click]		Test Run
+[2019-11-05 10:01:03.44]			[Click]		Power Off
+[2019-11-05 10:02:29.32]			[Loaded]		Application
+[2019-11-05 10:02:38.22]			[Click]		Power On
+[2019-11-05 10:02:49.40]			[Click]		Test Run
+[2019-11-05 10:03:00.03]			[Loaded]		Application
+[2019-11-05 10:03:13.22]			[Click]		Test Run
+[2019-11-05 10:03:29.12]			[Click]		Power Off
+[2019-11-05 10:03:36.44]			[Click]		Power On
+[2019-11-05 10:04:07.74]			[Click]		Test Run
+[2019-11-05 10:04:21.73]			[Click]		Power Off
+[2019-11-05 10:04:32.80]			[Click]		Power On
+[2019-11-05 10:04:42.05]			[Click]		Power Off
+[2019-11-05 10:04:46.95]			[Click]		Power On
+[2019-11-05 10:05:40.86]			[Click]		Test Run
+[2019-11-05 10:06:05.86]			[Click]		Power Off
+[2019-11-05 10:06:20.08]			[Click]		Power Off
+[2019-11-05 10:06:25.75]			[Click]		Power Off
+[2019-11-05 10:06:30.86]			[Click]		Power Off
+[2019-11-05 10:06:55.36]			[Click]		Power Off
+[2019-11-05 10:07:28.58]			[Closed]		Application
+[2019-11-05 10:07:35.30]			[Loaded]		Application
+[2019-11-05 10:07:40.23]			[Click]		Power Off
+[2019-11-05 10:07:50.58]			[Click]		Power Off
+[2019-11-05 10:07:56.80]			[Closed]		Application
+[2019-11-05 10:34:44.10]			[Loaded]		Application
+[2019-11-05 10:35:17.18]			[Click]		Power On
+[2019-11-05 10:38:27.97]			[Closed]		Application
+[2019-11-05 10:38:51.31]			[Loaded]		Application
+[2019-11-05 10:39:07.32]			[Click]		Power Off
+[2019-11-05 10:39:31.19]			[Loaded]		Application
+[2019-11-05 10:39:36.85]			[Click]		Power Off
+[2019-11-05 10:41:06.18]			[Click]		Power On
+[2019-11-05 10:42:42.36]			[Click]		Power Off
+[2019-11-05 10:45:53.85]			[Closed]		Application
+[2019-11-05 10:46:14.36]			[Loaded]		Application
+[2019-11-05 22:09:43.97]			[Loaded]		Application
+[2019-11-05 22:11:24.50]			[Loaded]		Application
+[2019-11-05 22:11:43.69]			[Click]		Power On
+[2019-11-05 22:11:53.80]			[Loaded]		Application
+[2019-11-05 22:11:58.81]			[Click]		Power On

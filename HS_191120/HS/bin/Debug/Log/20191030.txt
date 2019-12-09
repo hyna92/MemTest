@@ -1,0 +1,380 @@
+Time			Except	Board	Event		Data
+[2019-10-30 10:43:35.56]		1	loading start	
+[2019-10-30 10:43:35.67]			[Loaded]		Application
+[2019-10-30 10:43:49.43]			[Click]		Test Run
+[2019-10-30 10:45:30.65]		1	loading start	
+[2019-10-30 10:45:30.81]			[Loaded]		Application
+[2019-10-30 10:46:03.39]			[Click]		Measure 
+[2019-10-30 10:46:08.47]			[Click]		Apply 1180 
+[2019-10-30 10:46:10.42]			[Click]		Measure 
+[2019-10-30 10:46:13.80]			[Click]		Apply 1190 
+[2019-10-30 10:46:14.77]			[Click]		Measure 
+[2019-10-30 10:46:20.32]			[Closed]		Application
+[2019-10-30 10:47:17.41]		1	loading start	
+[2019-10-30 10:47:17.54]			[Loaded]		Application
+[2019-10-30 10:48:37.67]		1	loading start	
+[2019-10-30 10:48:37.79]			[Loaded]		Application
+[2019-10-30 10:53:29.90]		1	loading start	
+[2019-10-30 10:53:30.04]			[Loaded]		Application
+[2019-10-30 10:53:45.88]			[Closed]		Application
+[2019-10-30 10:54:37.36]		1	loading start	
+[2019-10-30 10:54:37.50]			[Loaded]		Application
+[2019-10-30 10:54:54.61]			[Click]		Test Stop
+[2019-10-30 10:54:57.28]			[Click]		Test Run
+[2019-10-30 10:55:00.15]			[Closed]		Application
+[2019-10-30 10:55:58.85]		1	loading start	
+[2019-10-30 10:55:59.03]			[Loaded]		Application
+[2019-10-30 10:59:34.82]		1	loading start	
+[2019-10-30 10:59:50.59]		1	loading start	
+[2019-10-30 10:59:50.67]			[Loaded]		Application
+[2019-10-30 11:00:02.84]		1	loading start	
+[2019-10-30 11:00:02.94]			[Loaded]		Application
+[2019-10-30 11:01:03.50]		1	loading start	
+[2019-10-30 11:01:03.64]			[Loaded]		Application
+[2019-10-30 11:01:23.31]		1	loading start	
+[2019-10-30 11:01:23.46]			[Loaded]		Application
+[2019-10-30 11:01:53.97]			[Click]		Apply 1180 
+[2019-10-30 11:01:57.66]			[Click]		Measure 
+[2019-10-30 11:02:03.88]			[Click]		Apply 1190 
+[2019-10-30 11:02:06.43]			[Click]		Measure 
+[2019-10-30 11:02:28.28]			[Click]		Apply 1200 
+[2019-10-30 11:02:56.09]			[Click]		Measure 
+[2019-10-30 11:02:59.52]			[Click]		Apply 1200 
+[2019-10-30 11:03:10.67]			[Click]		Measure 
+[2019-10-30 11:03:11.76]			[Click]		Apply 1200 
+[2019-10-30 11:03:13.54]			[Click]		Measure 
+[2019-10-30 11:03:15.78]			[Click]		Apply 1200 
+[2019-10-30 11:03:19.47]			[Closed]		Application
+[2019-10-30 11:04:02.62]		1	loading start	
+[2019-10-30 11:04:02.75]			[Loaded]		Application
+[2019-10-30 11:04:35.47]			[Click]		Test Pause
+[2019-10-30 11:05:03.00]			[Click]		Test Run
+[2019-10-30 11:05:25.93]			[Closed]		Application
+[2019-10-30 11:05:32.65]		1	loading start	
+[2019-10-30 11:05:32.84]			[Loaded]		Application
+[2019-10-30 11:06:38.91]		1	loading start	
+[2019-10-30 11:06:39.04]			[Loaded]		Application
+[2019-10-30 11:06:45.85]			[Closed]		Application
+[2019-10-30 11:06:59.98]		1	loading start	
+[2019-10-30 11:07:00.14]			[Loaded]		Application
+[2019-10-30 11:07:13.41]			[Closed]		Application
+[2019-10-30 11:07:32.81]		1	loading start	
+[2019-10-30 11:07:32.96]			[Loaded]		Application
+[2019-10-30 11:07:51.27]			[Click]		Test Pause
+[2019-10-30 11:08:01.78]			[Click]		Test Run
+[2019-10-30 11:08:09.73]			[Click]		Test Stop
+[2019-10-30 11:08:20.98]			[Click]		Test Run
+[2019-10-30 11:08:42.81]			[Click]		Test Pause
+[2019-10-30 11:08:56.05]			[Click]		Test Run
+[2019-10-30 11:09:11.71]			[Click]		Test Pause
+[2019-10-30 11:09:24.70]			[Click]		Test Run
+[2019-10-30 11:09:44.20]			[Click]		Test Pause
+[2019-10-30 11:09:57.15]			[Click]		Test Run
+[2019-10-30 11:10:09.36]			[Click]		Test Pause
+[2019-10-30 11:10:28.38]			[Click]		Test Run
+[2019-10-30 11:10:31.35]			[Click]		Test Pause
+[2019-10-30 11:10:34.38]			[Closed]		Application
+[2019-10-30 11:10:41.63]		1	loading start	
+[2019-10-30 11:10:41.75]			[Loaded]		Application
+[2019-10-30 11:10:53.95]			[Closed]		Application
+[2019-10-30 11:12:00.32]		1	loading start	
+[2019-10-30 11:12:00.57]			[Loaded]		Application
+[2019-10-30 11:12:35.64]		1	loading start	
+[2019-10-30 11:12:35.77]			[Loaded]		Application
+[2019-10-30 11:14:57.35]		1	loading start	
+[2019-10-30 11:14:57.50]			[Loaded]		Application
+[2019-10-30 11:15:08.17]			[Closed]		Application
+[2019-10-30 11:23:55.17]		1	loading start	
+[2019-10-30 11:23:55.32]			[Loaded]		Application
+[2019-10-30 11:24:10.06]			[Click]		Test Run
+[2019-10-30 11:24:39.42]			[Closed]		Application
+[2019-10-30 11:24:50.22]		1	loading start	
+[2019-10-30 11:24:50.28]			[Loaded]		Application
+[2019-10-30 11:25:10.36]			[Closed]		Application
+[2019-10-30 11:25:15.62]		1	loading start	
+[2019-10-30 11:25:15.73]			[Loaded]		Application
+[2019-10-30 11:25:40.92]			[Closed]		Application
+[2019-10-30 11:25:46.75]		1	loading start	
+[2019-10-30 11:25:46.82]			[Loaded]		Application
+[2019-10-30 11:25:56.84]			[Closed]		Application
+[2019-10-30 11:26:04.52]		1	loading start	
+[2019-10-30 11:26:04.58]			[Loaded]		Application
+[2019-10-30 11:26:09.96]			[Closed]		Application
+[2019-10-30 11:26:14.06]		1	loading start	
+[2019-10-30 11:26:14.12]			[Loaded]		Application
+[2019-10-30 11:26:22.81]			[Closed]		Application
+[2019-10-30 11:26:33.78]		1	loading start	
+[2019-10-30 11:26:33.96]			[Loaded]		Application
+[2019-10-30 11:26:41.26]			[Closed]		Application
+[2019-10-30 11:40:13.17]		1	loading start	
+[2019-10-30 11:40:13.59]			[Loaded]		Application
+[2019-10-30 11:40:26.34]			[Closed]		Application
+[2019-10-30 13:04:04.48]		1	loading start	
+[2019-10-30 13:04:09.70]			[Loaded]		Application
+[2019-10-30 13:04:28.71]			[Closed]		Application
+[2019-10-30 13:04:39.30]		1	loading start	
+[2019-10-30 13:04:40.78]			[Loaded]		Application
+[2019-10-30 13:04:54.52]			[Closed]		Application
+[2019-10-30 13:05:03.73]		1	loading start	
+[2019-10-30 13:05:04.40]			[Loaded]		Application
+[2019-10-30 13:08:12.84]		1	loading start	
+[2019-10-30 13:08:13.84]			[Loaded]		Application
+[2019-10-30 13:09:05.04]		1	loading start	
+[2019-10-30 13:09:05.29]			[Loaded]		Application
+[2019-10-30 13:10:21.63]		1	loading start	
+[2019-10-30 13:10:21.76]			[Loaded]		Application
+[2019-10-30 13:11:06.48]		1	loading start	
+[2019-10-30 13:11:07.61]			[Loaded]		Application
+[2019-10-30 13:11:27.66]		1	loading start	
+[2019-10-30 13:11:28.46]			[Loaded]		Application
+[2019-10-30 13:11:52.63]			[Closed]		Application
+[2019-10-30 13:12:02.72]		1	loading start	
+[2019-10-30 13:12:03.51]			[Loaded]		Application
+[2019-10-30 13:13:21.37]		1	loading start	
+[2019-10-30 13:13:23.34]			[Loaded]		Application
+[2019-10-30 17:11:05.05]		1	loading start	
+[2019-10-30 17:11:05.26]			[Loaded]		Application
+[2019-10-30 17:11:20.52]			[Closed]		Application
+[2019-10-30 17:12:06.00]		1	loading start	
+[2019-10-30 17:12:06.14]			[Loaded]		Application
+[2019-10-30 17:12:28.08]			[Closed]		Application
+[2019-10-30 17:12:40.41]		1	loading start	
+[2019-10-30 17:12:40.69]			[Loaded]		Application
+[2019-10-30 17:13:09.40]			[Closed]		Application
+[2019-10-30 17:13:21.30]		1	loading start	
+[2019-10-30 17:13:21.95]			[Loaded]		Application
+[2019-10-30 17:13:35.38]			[Closed]		Application
+[2019-10-30 17:14:09.35]		1	loading start	
+[2019-10-30 17:14:09.48]			[Loaded]		Application
+[2019-10-30 17:14:44.12]			[Closed]		Application
+[2019-10-30 17:14:58.09]		1	loading start	
+[2019-10-30 17:14:58.24]			[Loaded]		Application
+[2019-10-30 17:15:30.19]			[Click]		Test Stop
+[2019-10-30 17:15:32.83]			[Click]		Test Run
+[2019-10-30 17:15:45.51]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 17:17:19.61]			[Closed]		Application
+[2019-10-30 17:17:26.74]		1	loading start	
+[2019-10-30 17:17:26.94]			[Loaded]		Application
+[2019-10-30 17:17:38.15]			[Closed]		Application
+[2019-10-30 17:18:03.44]		1	loading start	
+[2019-10-30 17:18:03.58]			[Loaded]		Application
+[2019-10-30 17:18:09.49]			[Closed]		Application
+[2019-10-30 17:18:17.12]		1	loading start	
+[2019-10-30 17:18:17.32]			[Loaded]		Application
+[2019-10-30 17:18:29.36]			[Closed]		Application
+[2019-10-30 17:19:39.60]		1	loading start	
+[2019-10-30 17:19:39.74]			[Loaded]		Application
+[2019-10-30 17:19:59.47]			[Click]		Power Off
+[2019-10-30 17:21:32.64]		1	loading start	
+[2019-10-30 17:21:32.79]			[Loaded]		Application
+[2019-10-30 17:21:46.39]			[Click]		Test Stop
+[2019-10-30 17:21:55.59]			[Click]		Power Off
+[2019-10-30 17:22:32.00]			[Closed]		Application
+[2019-10-30 17:26:46.81]		1	loading start	
+[2019-10-30 17:26:47.11]			[Loaded]		Application
+[2019-10-30 17:26:57.58]			[Click]		Power Off
+[2019-10-30 17:27:12.00]			[Click]		Power On
+[2019-10-30 17:27:31.75]			[Click]		Test Run
+[2019-10-30 17:27:50.84]			[Click]		Test Run
+[2019-10-30 17:28:13.41]			[Click]		Test Stop
+[2019-10-30 17:28:17.38]			[Click]		Test Run
+[2019-10-30 17:29:28.30]			[Closed]		Application
+[2019-10-30 17:29:34.12]		1	loading start	
+[2019-10-30 17:29:34.27]			[Loaded]		Application
+[2019-10-30 17:30:13.92]		1	loading start	
+[2019-10-30 17:30:14.08]			[Loaded]		Application
+[2019-10-30 17:31:16.07]		1	loading start	
+[2019-10-30 17:31:16.21]			[Loaded]		Application
+[2019-10-30 17:31:44.75]		1	loading start	
+[2019-10-30 17:31:44.90]			[Loaded]		Application
+[2019-10-30 17:32:06.32]			[Closed]		Application
+[2019-10-30 17:32:46.54]		1	loading start	
+[2019-10-30 17:32:46.68]			[Loaded]		Application
+[2019-10-30 17:33:13.38]			[Closed]		Application
+[2019-10-30 17:33:46.85]	e				SerialSendRecv (0) > 포트가 닫혀 있습니다.
+[2019-10-30 17:35:40.16]		1	loading start	
+[2019-10-30 17:35:40.30]			[Loaded]		Application
+[2019-10-30 17:36:06.54]			[Closed]		Application
+[2019-10-30 17:36:23.42]		1	loading start	
+[2019-10-30 17:36:23.56]			[Loaded]		Application
+[2019-10-30 17:37:13.23]		1	loading start	
+[2019-10-30 17:37:13.36]			[Loaded]		Application
+[2019-10-30 17:37:28.81]		1	loading start	
+[2019-10-30 17:37:28.93]			[Loaded]		Application
+[2019-10-30 17:38:05.64]		1	loading start	
+[2019-10-30 17:38:05.75]			[Loaded]		Application
+[2019-10-30 17:39:22.47]		1	loading start	
+[2019-10-30 17:39:24.22]			[Loaded]		Application
+[2019-10-30 17:43:18.46]		1	loading start	
+[2019-10-30 17:43:18.61]			[Loaded]		Application
+[2019-10-30 17:44:29.47]		1	loading start	
+[2019-10-30 17:44:37.74]			[Loaded]		Application
+[2019-10-30 17:45:42.21]			[Closed]		Application
+[2019-10-30 17:45:58.01]		1	loading start	
+[2019-10-30 17:45:59.46]			[Loaded]		Application
+[2019-10-30 17:46:11.63]			[Closed]		Application
+[2019-10-30 17:46:11.63]	e				SerialSendRecv (0) > 스레드가 중단되었습니다.
+[2019-10-30 17:46:45.63]		1	loading start	
+[2019-10-30 17:46:45.86]			[Loaded]		Application
+[2019-10-30 17:46:51.95]			[Closed]		Application
+[2019-10-30 17:47:03.16]		1	loading start	
+[2019-10-30 17:47:04.28]			[Loaded]		Application
+[2019-10-30 17:47:13.01]			[Closed]		Application
+[2019-10-30 17:47:47.92]		1	loading start	
+[2019-10-30 17:47:48.56]			[Loaded]		Application
+[2019-10-30 17:47:54.33]			[Closed]		Application
+[2019-10-30 17:48:03.62]		1	loading start	
+[2019-10-30 17:48:03.76]			[Loaded]		Application
+[2019-10-30 17:48:18.65]			[Closed]		Application
+[2019-10-30 17:48:31.20]		1	loading start	
+[2019-10-30 17:48:32.80]			[Loaded]		Application
+[2019-10-30 17:48:45.44]			[Click]		Power Off
+[2019-10-30 17:50:18.54]		1	loading start	
+[2019-10-30 17:50:19.37]			[Loaded]		Application
+[2019-10-30 17:50:27.27]			[Click]		Power Off
+[2019-10-30 17:51:16.80]		1	loading start	
+[2019-10-30 17:51:18.67]			[Loaded]		Application
+[2019-10-30 17:52:15.70]		1	loading start	
+[2019-10-30 17:52:16.79]			[Loaded]		Application
+[2019-10-30 17:52:51.72]			[Click]		Power Off
+[2019-10-30 17:54:46.04]		1	loading start	
+[2019-10-30 17:54:47.99]			[Loaded]		Application
+[2019-10-30 17:54:59.39]			[Click]		Power Off
+[2019-10-30 17:55:35.92]		1	loading start	
+[2019-10-30 17:55:36.69]			[Loaded]		Application
+[2019-10-30 17:58:18.95]			[Click]		Power Off
+[2019-10-30 18:01:32.90]		1	loading start	
+[2019-10-30 18:01:34.72]			[Loaded]		Application
+[2019-10-30 18:02:00.33]			[Click]		Power Off
+[2019-10-30 18:04:19.89]		1	loading start	
+[2019-10-30 18:04:21.61]			[Loaded]		Application
+[2019-10-30 18:05:45.69]		1	loading start	
+[2019-10-30 18:05:46.38]			[Loaded]		Application
+[2019-10-30 18:05:55.16]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 18:10:04.39]			[Closed]		Application
+[2019-10-30 21:32:02.64]		1	loading start	
+[2019-10-30 21:32:03.24]			[Loaded]		Application
+[2019-10-30 21:32:53.39]		1	loading start	
+[2019-10-30 21:32:54.33]			[Loaded]		Application
+[2019-10-30 21:32:55.40]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:33:01.45]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:33:07.49]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:33:13.53]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:34:22.65]		1	loading start	
+[2019-10-30 21:34:23.32]			[Loaded]		Application
+[2019-10-30 21:34:25.98]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:34:33.05]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:35:56.99]		1	loading start	
+[2019-10-30 21:35:58.08]			[Loaded]		Application
+[2019-10-30 21:36:04.25]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:36:10.30]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:36:16.36]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:36:22.39]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:36:53.16]		1	loading start	
+[2019-10-30 21:36:54.66]			[Loaded]		Application
+[2019-10-30 21:37:49.36]			[Click]		Power Off
+[2019-10-30 21:38:00.12]			[Click]		Power On
+[2019-10-30 21:39:55.72]		1	loading start	
+[2019-10-30 21:39:56.67]			[Loaded]		Application
+[2019-10-30 21:40:35.98]		1	loading start	
+[2019-10-30 21:40:36.51]			[Loaded]		Application
+[2019-10-30 21:41:04.57]			[Click]		Power Off
+[2019-10-30 21:41:29.52]			[Click]		Power Off
+[2019-10-30 21:41:45.87]			[Click]		Power On
+[2019-10-30 21:42:46.02]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:43:19.08]			[Closed]		Application
+[2019-10-30 21:43:55.72]		1	loading start	
+[2019-10-30 21:43:56.18]			[Loaded]		Application
+[2019-10-30 21:44:10.43]			[Click]		Power Off
+[2019-10-30 21:47:01.00]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:47:10.36]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:47:15.63]			[Closed]		Application
+[2019-10-30 21:55:04.79]		1	loading start	
+[2019-10-30 21:55:05.28]			[Loaded]		Application
+[2019-10-30 21:55:06.36]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:55:12.44]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 21:59:05.96]		1	loading start	
+[2019-10-30 21:59:06.80]			[Loaded]		Application
+[2019-10-30 21:59:17.57]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:00:33.73]			[Closed]		Application
+[2019-10-30 22:01:38.76]		1	loading start	
+[2019-10-30 22:01:39.68]			[Loaded]		Application
+[2019-10-30 22:01:40.84]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:01:46.09]			[Closed]		Application
+[2019-10-30 22:02:58.01]		1	loading start	
+[2019-10-30 22:02:58.50]			[Loaded]		Application
+[2019-10-30 22:02:59.58]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:03:14.98]			[Closed]		Application
+[2019-10-30 22:03:26.74]		1	loading start	
+[2019-10-30 22:03:27.61]			[Loaded]		Application
+[2019-10-30 22:03:58.74]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:08:24.63]		1	loading start	
+[2019-10-30 22:08:25.87]			[Loaded]		Application
+[2019-10-30 22:08:27.00]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:08:41.70]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:08:51.83]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:09:11.88]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:09:23.95]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:09:37.78]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:09:43.84]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:09:49.89]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:09:55.94]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:10:02.00]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:10:08.05]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:10:14.10]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:10:20.15]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:10:26.24]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:10:32.29]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:10:38.34]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:10:44.40]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:10:50.50]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:10:56.56]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:11:02.66]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:11:08.72]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:11:14.78]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:11:20.82]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:11:26.86]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:11:32.91]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:11:38.95]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:11:45.00]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:11:51.04]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:11:57.08]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:12:03.13]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:12:09.29]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:12:15.33]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:12:21.39]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:12:27.43]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:12:58.03]		1	loading start	
+[2019-10-30 22:12:59.64]			[Loaded]		Application
+[2019-10-30 22:13:00.88]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:13:16.32]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:13:28.27]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:24:25.12]		1	loading start	
+[2019-10-30 22:24:26.39]			[Loaded]		Application
+[2019-10-30 22:25:01.95]			[Closed]		Application
+[2019-10-30 22:25:47.28]		1	loading start	
+[2019-10-30 22:25:47.78]			[Loaded]		Application
+[2019-10-30 22:26:44.78]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:28:20.49]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:28:32.72]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:28:43.47]			[Closed]		Application
+[2019-10-30 22:30:12.07]		1	loading start	
+[2019-10-30 22:30:14.02]			[Loaded]		Application
+[2019-10-30 22:30:17.39]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:30:33.45]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:31:20.72]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:33:32.81]			[Closed]		Application
+[2019-10-30 22:34:13.69]		1	loading start	
+[2019-10-30 22:34:15.07]			[Loaded]		Application
+[2019-10-30 22:37:46.75]		1	loading start	
+[2019-10-30 22:37:47.60]			[Loaded]		Application
+[2019-10-30 22:43:43.73]		1	loading start	
+[2019-10-30 22:43:45.43]			[Loaded]		Application
+[2019-10-30 22:48:24.54]		1	loading start	
+[2019-10-30 22:48:24.99]			[Loaded]		Application
+[2019-10-30 22:49:00.95]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-10-30 22:50:14.86]			[Closed]		Application
+[2019-10-30 22:50:34.52]		1	loading start	
+[2019-10-30 22:50:34.95]			[Loaded]		Application
+[2019-10-30 22:51:37.95]		1	loading start	
+[2019-10-30 22:51:38.23]			[Loaded]		Application

@@ -1,0 +1,436 @@
+Time			Except	Board	Event		Data
+[2019-11-02 14:37:08.82]		1	loading start	
+[2019-11-02 14:37:09.46]			[Loaded]		Application
+[2019-11-02 14:37:55.35]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 14:37:57.36]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 14:38:10.29]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 14:38:34.42]			[Closed]		Application
+[2019-11-02 14:39:07.65]		1	loading start	
+[2019-11-02 14:39:08.20]			[Loaded]		Application
+[2019-11-02 14:39:19.40]			[Closed]		Application
+[2019-11-02 14:39:50.18]		1	loading start	
+[2019-11-02 14:39:52.25]			[Loaded]		Application
+[2019-11-02 14:40:32.22]		1	loading start	
+[2019-11-02 14:40:35.15]			[Loaded]		Application
+[2019-11-02 14:41:52.79]		1	loading start	
+[2019-11-02 14:41:54.90]			[Loaded]		Application
+[2019-11-02 14:43:01.34]		1	loading start	
+[2019-11-02 14:43:07.39]			[Loaded]		Application
+[2019-11-02 14:52:46.32]		1	loading start	
+[2019-11-02 14:52:47.55]			[Loaded]		Application
+[2019-11-02 14:56:47.08]		1	loading start	
+[2019-11-02 14:56:47.61]			[Loaded]		Application
+[2019-11-02 14:56:51.43]			[Closed]		Application
+[2019-11-02 14:57:33.89]		1	loading start	
+[2019-11-02 14:57:40.23]			[Loaded]		Application
+[2019-11-02 14:58:35.04]		1	loading start	
+[2019-11-02 14:58:35.55]			[Loaded]		Application
+[2019-11-02 14:58:45.31]			[Closed]		Application
+[2019-11-02 14:59:13.37]		1	loading start	
+[2019-11-02 14:59:13.86]			[Loaded]		Application
+[2019-11-02 15:04:03.85]		1	loading start	
+[2019-11-02 15:04:04.43]			[Loaded]		Application
+[2019-11-02 15:04:54.48]		1	loading start	
+[2019-11-02 15:04:58.03]			[Loaded]		Application
+[2019-11-02 15:12:18.90]		1	loading start	
+[2019-11-02 15:12:19.47]			[Loaded]		Application
+[2019-11-02 15:13:18.17]			[Closed]		Application
+[2019-11-02 15:16:51.01]		1	loading start	
+[2019-11-02 15:16:51.65]			[Loaded]		Application
+[2019-11-02 15:25:13.29]		1	loading start	
+[2019-11-02 15:25:13.83]			[Loaded]		Application
+[2019-11-02 15:27:33.98]		1	loading start	
+[2019-11-02 15:37:11.64]		1	loading start	
+[2019-11-02 15:37:15.09]			[Loaded]		Application
+[2019-11-02 15:39:06.12]			[Closed]		Application
+[2019-11-02 15:39:24.57]		1	loading start	
+[2019-11-02 15:39:25.05]			[Loaded]		Application
+[2019-11-02 15:40:41.53]		1	loading start	
+[2019-11-02 15:40:41.80]			[Loaded]		Application
+[2019-11-02 15:42:00.82]		1	loading start	
+[2019-11-02 15:42:01.08]			[Loaded]		Application
+[2019-11-02 15:42:46.20]		1	loading start	
+[2019-11-02 15:42:46.48]			[Loaded]		Application
+[2019-11-02 15:44:14.89]		1	loading start	
+[2019-11-02 15:44:15.59]			[Loaded]		Application
+[2019-11-02 15:46:08.95]		1	loading start	
+[2019-11-02 15:46:09.45]			[Loaded]		Application
+[2019-11-02 15:46:41.83]		1	loading start	
+[2019-11-02 15:46:42.07]			[Loaded]		Application
+[2019-11-02 15:48:07.21]		1	loading start	
+[2019-11-02 15:48:07.80]			[Loaded]		Application
+[2019-11-02 15:49:03.02]			[Closed]		Application
+[2019-11-02 15:49:40.98]		1	loading start	
+[2019-11-02 15:49:41.58]			[Loaded]		Application
+[2019-11-02 15:50:50.11]			[Closed]		Application
+[2019-11-02 15:50:57.48]		1	loading start	
+[2019-11-02 15:50:57.80]			[Loaded]		Application
+[2019-11-02 15:54:55.19]			[Closed]		Application
+[2019-11-02 15:55:54.40]		1	loading start	
+[2019-11-02 15:55:54.95]			[Loaded]		Application
+[2019-11-02 15:56:48.75]			[Closed]		Application
+[2019-11-02 16:01:27.19]		1	loading start	
+[2019-11-02 16:01:27.77]			[Loaded]		Application
+[2019-11-02 16:01:50.09]			[Click]		Apply 1190 
+[2019-11-02 16:01:51.64]			[Click]		Measure 
+[2019-11-02 16:01:57.91]			[Closed]		Application
+[2019-11-02 16:02:43.71]		1	loading start	
+[2019-11-02 16:02:44.25]			[Loaded]		Application
+[2019-11-02 16:03:12.60]			[Click]		Test Run
+[2019-11-02 16:04:26.34]			[Closed]		Application
+[2019-11-02 16:04:28.13]	e				SerialSendRecv (0) > 포트가 닫혀 있습니다.
+[2019-11-02 16:04:47.45]		1	loading start	
+[2019-11-02 16:04:47.99]			[Loaded]		Application
+[2019-11-02 16:05:06.35]			[Closed]		Application
+[2019-11-02 16:05:11.44]		1	loading start	
+[2019-11-02 16:05:11.74]			[Loaded]		Application
+[2019-11-02 16:05:27.28]			[Closed]		Application
+[2019-11-02 16:07:53.34]		1	loading start	
+[2019-11-02 16:07:53.94]			[Loaded]		Application
+[2019-11-02 16:08:14.83]			[Closed]		Application
+[2019-11-02 16:09:32.04]		1	loading start	
+[2019-11-02 16:09:32.58]			[Loaded]		Application
+[2019-11-02 16:12:08.90]		1	loading start	
+[2019-11-02 16:12:09.47]			[Loaded]		Application
+[2019-11-02 16:28:41.39]		1	loading start	
+[2019-11-02 16:28:41.93]			[Loaded]		Application
+[2019-11-02 16:30:11.56]			[Closed]		Application
+[2019-11-02 16:32:41.68]		1	loading start	
+[2019-11-02 16:32:42.40]			[Loaded]		Application
+[2019-11-02 16:34:18.02]		1	loading start	
+[2019-11-02 16:34:18.66]			[Loaded]		Application
+[2019-11-02 16:35:01.58]			[Closed]		Application
+[2019-11-02 16:38:47.93]		1	loading start	
+[2019-11-02 16:38:48.49]			[Loaded]		Application
+[2019-11-02 16:39:24.96]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 16:39:36.49]			[Closed]		Application
+[2019-11-02 16:40:47.19]		1	loading start	
+[2019-11-02 16:40:47.70]			[Loaded]		Application
+[2019-11-02 16:42:04.09]		1	loading start	
+[2019-11-02 16:42:04.61]			[Loaded]		Application
+[2019-11-02 16:44:18.14]		1	loading start	
+[2019-11-02 16:44:18.68]			[Loaded]		Application
+[2019-11-02 16:46:00.22]		1	loading start	
+[2019-11-02 16:46:00.71]			[Loaded]		Application
+[2019-11-02 16:47:00.35]			[Closed]		Application
+[2019-11-02 16:51:30.48]		1	loading start	
+[2019-11-02 16:51:31.09]			[Loaded]		Application
+[2019-11-02 16:52:04.60]			[Closed]		Application
+[2019-11-02 16:52:21.39]		1	loading start	
+[2019-11-02 16:52:21.98]			[Loaded]		Application
+[2019-11-02 16:56:01.13]		1	loading start	
+[2019-11-02 16:56:01.71]			[Loaded]		Application
+[2019-11-02 17:20:15.33]		1	loading start	
+[2019-11-02 17:20:15.99]			[Loaded]		Application
+[2019-11-02 17:21:56.19]		1	loading start	
+[2019-11-02 17:21:57.26]			[Loaded]		Application
+[2019-11-02 17:22:37.03]			[Click]		Power Off
+[2019-11-02 17:22:38.14]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 17:22:45.72]			[Click]		Power On
+[2019-11-02 17:22:46.37]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 17:22:50.24]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 17:23:21.73]			[Closed]		Application
+[2019-11-02 17:24:04.83]		1	loading start	
+[2019-11-02 17:24:05.40]			[Loaded]		Application
+[2019-11-02 17:24:17.96]			[Click]		Power On
+[2019-11-02 17:24:19.88]			[Click]		Power On
+[2019-11-02 17:24:22.08]			[Click]		Power Off
+[2019-11-02 17:24:32.82]			[Click]		Power Off
+[2019-11-02 17:25:18.58]			[Click]		Power Off
+[2019-11-02 17:25:42.07]			[Click]		Power Off
+[2019-11-02 17:26:14.60]			[Closed]		Application
+[2019-11-02 17:26:36.29]		1	loading start	
+[2019-11-02 17:26:36.88]			[Loaded]		Application
+[2019-11-02 17:26:41.93]			[Click]		Power Off
+[2019-11-02 17:27:05.75]			[Closed]		Application
+[2019-11-02 17:27:19.65]		1	loading start	
+[2019-11-02 17:27:20.22]			[Loaded]		Application
+[2019-11-02 17:27:23.43]			[Closed]		Application
+[2019-11-02 17:27:29.44]		1	loading start	
+[2019-11-02 17:27:29.78]			[Loaded]		Application
+[2019-11-02 17:27:38.67]			[Click]		Power Off
+[2019-11-02 17:28:31.44]		1	loading start	
+[2019-11-02 17:28:32.06]			[Loaded]		Application
+[2019-11-02 17:28:41.59]			[Click]		Power Off
+[2019-11-02 17:29:08.94]			[Click]		Power Off
+[2019-11-02 17:29:52.11]		1	loading start	
+[2019-11-02 17:29:52.70]			[Loaded]		Application
+[2019-11-02 17:29:58.76]			[Click]		Power Off
+[2019-11-02 17:30:42.24]		1	loading start	
+[2019-11-02 17:30:42.86]			[Loaded]		Application
+[2019-11-02 17:30:46.56]			[Click]		Power Off
+[2019-11-02 17:31:15.57]		1	loading start	
+[2019-11-02 17:31:15.91]			[Loaded]		Application
+[2019-11-02 17:31:19.88]			[Click]		Power Off
+[2019-11-02 17:32:12.53]		1	loading start	
+[2019-11-02 17:32:13.22]			[Loaded]		Application
+[2019-11-02 17:32:20.31]			[Click]		Power Off
+[2019-11-02 17:34:03.79]		1	loading start	
+[2019-11-02 17:34:04.37]			[Loaded]		Application
+[2019-11-02 17:34:07.85]			[Click]		Power Off
+[2019-11-02 17:35:15.13]		1	loading start	
+[2019-11-02 17:35:15.50]			[Loaded]		Application
+[2019-11-02 17:35:21.55]			[Click]		Power Off
+[2019-11-02 17:36:51.43]		1	loading start	
+[2019-11-02 17:36:51.96]			[Loaded]		Application
+[2019-11-02 17:36:57.68]			[Click]		Power Off
+[2019-11-02 17:38:29.20]		1	loading start	
+[2019-11-02 17:38:30.07]			[Loaded]		Application
+[2019-11-02 17:38:45.37]			[Click]		Power Off
+[2019-11-02 17:39:04.62]			[Click]		Power On
+[2019-11-02 17:39:26.87]		1	loading start	
+[2019-11-02 17:39:27.15]			[Loaded]		Application
+[2019-11-02 17:39:34.58]			[Click]		Power On
+[2019-11-02 17:40:04.11]		1	loading start	
+[2019-11-02 17:40:04.42]			[Loaded]		Application
+[2019-11-02 17:40:08.87]			[Click]		Power On
+[2019-11-02 17:49:45.52]		1	loading start	
+[2019-11-02 17:49:46.20]			[Loaded]		Application
+[2019-11-02 17:49:57.48]			[Click]		Power On
+[2019-11-02 17:50:18.92]		1	loading start	
+[2019-11-02 17:50:19.25]			[Loaded]		Application
+[2019-11-02 17:50:25.31]			[Click]		Power On
+[2019-11-02 17:52:47.58]		1	loading start	
+[2019-11-02 17:52:48.46]			[Loaded]		Application
+[2019-11-02 17:53:06.09]			[Click]		Power On
+[2019-11-02 17:53:49.04]		1	loading start	
+[2019-11-02 17:53:50.08]			[Loaded]		Application
+[2019-11-02 17:53:58.20]			[Click]		Power On
+[2019-11-02 17:54:11.90]			[Click]		Power Off
+[2019-11-02 17:55:54.87]		1	loading start	
+[2019-11-02 17:55:55.62]			[Loaded]		Application
+[2019-11-02 17:56:23.67]			[Click]		Power Off
+[2019-11-02 17:56:41.75]			[Click]		Power On
+[2019-11-02 17:56:59.26]			[Click]		Power On
+[2019-11-02 17:57:24.80]			[Click]		Power Off
+[2019-11-02 17:57:39.70]			[Click]		Power On
+[2019-11-02 17:58:15.67]			[Click]		Power Off
+[2019-11-02 17:58:22.89]			[Click]		Power On
+[2019-11-02 17:59:46.89]			[Click]		Power Off
+[2019-11-02 17:59:57.71]			[Click]		Power On
+[2019-11-02 18:00:44.47]			[Closed]		Application
+[2019-11-02 18:01:04.57]		1	loading start	
+[2019-11-02 18:01:05.03]			[Loaded]		Application
+[2019-11-02 18:01:17.56]			[Click]		Test Run
+[2019-11-02 18:01:26.12]			[Closed]		Application
+[2019-11-02 18:01:57.63]		1	loading start	
+[2019-11-02 18:01:58.13]			[Loaded]		Application
+[2019-11-02 18:02:06.67]			[Closed]		Application
+[2019-11-02 18:02:32.83]		1	loading start	
+[2019-11-02 18:02:33.38]			[Loaded]		Application
+[2019-11-02 18:03:05.71]			[Closed]		Application
+[2019-11-02 18:03:17.04]		1	loading start	
+[2019-11-02 18:03:17.71]			[Loaded]		Application
+[2019-11-02 18:03:56.08]			[Click]		Power Off
+[2019-11-02 18:05:25.41]		1	loading start	
+[2019-11-02 18:05:26.12]			[Loaded]		Application
+[2019-11-02 18:05:52.41]			[Click]		Power Off
+[2019-11-02 18:05:54.41]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:06:06.93]		1	loading start	
+[2019-11-02 18:06:07.23]			[Loaded]		Application
+[2019-11-02 18:06:18.18]			[Click]		Test Run
+[2019-11-02 18:06:28.11]			[Click]		Power On
+[2019-11-02 18:06:51.85]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:07:41.75]		1	loading start	
+[2019-11-02 18:07:42.08]			[Loaded]		Application
+[2019-11-02 18:08:11.43]			[Click]		Power Off
+[2019-11-02 18:08:21.06]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:09:07.96]		1	loading start	
+[2019-11-02 18:09:08.58]			[Loaded]		Application
+[2019-11-02 18:09:44.20]			[Click]		Power On
+[2019-11-02 18:10:17.59]			[Click]		Power Off
+[2019-11-02 18:10:57.71]			[Click]		Power On
+[2019-11-02 18:11:31.60]			[Click]		Test Run
+[2019-11-02 18:11:35.31]			[Click]		Test Run
+[2019-11-02 18:11:46.07]			[Closed]		Application
+[2019-11-02 18:12:18.60]		1	loading start	
+[2019-11-02 18:12:19.08]			[Loaded]		Application
+[2019-11-02 18:12:31.95]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:12:50.27]			[Closed]		Application
+[2019-11-02 18:14:04.07]		1	loading start	
+[2019-11-02 18:14:04.54]			[Loaded]		Application
+[2019-11-02 18:14:25.83]			[Click]		Test Run
+[2019-11-02 18:14:37.92]			[Closed]		Application
+[2019-11-02 18:15:04.51]		1	loading start	
+[2019-11-02 18:15:05.01]			[Loaded]		Application
+[2019-11-02 18:15:14.44]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:15:31.11]			[Closed]		Application
+[2019-11-02 18:16:28.96]		1	loading start	
+[2019-11-02 18:16:29.46]			[Loaded]		Application
+[2019-11-02 18:17:02.49]			[Click]		Test Run
+[2019-11-02 18:17:04.22]			[Show]		MessageBox > Please Select the Board
+[2019-11-02 18:17:07.24]			[Click]		Test Run
+[2019-11-02 18:17:17.47]			[Click]		Power Off
+[2019-11-02 18:17:30.08]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:17:59.37]			[Click]		Power Off
+[2019-11-02 18:18:53.09]		1	loading start	
+[2019-11-02 18:18:53.58]			[Loaded]		Application
+[2019-11-02 18:19:09.62]			[Closed]		Application
+[2019-11-02 18:20:29.75]		1	loading start	
+[2019-11-02 18:20:30.26]			[Loaded]		Application
+[2019-11-02 18:20:38.64]			[Closed]		Application
+[2019-11-02 18:20:50.84]		1	loading start	
+[2019-11-02 18:20:51.33]			[Loaded]		Application
+[2019-11-02 18:21:07.29]			[Closed]		Application
+[2019-11-02 18:21:12.15]		1	loading start	
+[2019-11-02 18:21:12.81]			[Loaded]		Application
+[2019-11-02 18:21:46.19]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:22:10.34]			[Closed]		Application
+[2019-11-02 18:22:35.72]		1	loading start	
+[2019-11-02 18:22:36.24]			[Loaded]		Application
+[2019-11-02 18:22:47.47]			[Closed]		Application
+[2019-11-02 18:22:53.40]		1	loading start	
+[2019-11-02 18:22:53.76]			[Loaded]		Application
+[2019-11-02 18:22:59.26]			[Closed]		Application
+[2019-11-02 18:23:23.54]		1	loading start	
+[2019-11-02 18:23:24.09]			[Loaded]		Application
+[2019-11-02 18:23:25.16]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:23:34.55]			[Click]		Power Off
+[2019-11-02 18:24:51.64]		1	loading start	
+[2019-11-02 18:24:52.08]			[Loaded]		Application
+[2019-11-02 18:25:29.62]			[Closed]		Application
+[2019-11-02 18:26:04.41]		1	loading start	
+[2019-11-02 18:26:04.94]			[Loaded]		Application
+[2019-11-02 18:26:18.27]			[Closed]		Application
+[2019-11-02 18:26:27.95]		1	loading start	
+[2019-11-02 18:26:28.25]			[Loaded]		Application
+[2019-11-02 18:26:41.66]			[Closed]		Application
+[2019-11-02 18:27:05.78]		1	loading start	
+[2019-11-02 18:27:06.61]			[Loaded]		Application
+[2019-11-02 18:27:19.72]			[Closed]		Application
+[2019-11-02 18:27:46.35]		1	loading start	
+[2019-11-02 18:27:47.95]			[Loaded]		Application
+[2019-11-02 18:28:01.32]			[Closed]		Application
+[2019-11-02 18:28:20.02]		1	loading start	
+[2019-11-02 18:28:21.67]			[Loaded]		Application
+[2019-11-02 18:28:42.33]			[Closed]		Application
+[2019-11-02 18:29:00.70]		1	loading start	
+[2019-11-02 18:29:01.95]			[Loaded]		Application
+[2019-11-02 18:29:09.62]			[Closed]		Application
+[2019-11-02 18:29:26.68]		1	loading start	
+[2019-11-02 18:29:27.43]			[Loaded]		Application
+[2019-11-02 18:29:52.81]			[Closed]		Application
+[2019-11-02 18:30:12.43]		1	loading start	
+[2019-11-02 18:30:13.14]			[Loaded]		Application
+[2019-11-02 18:30:26.16]			[Closed]		Application
+[2019-11-02 18:30:46.72]		1	loading start	
+[2019-11-02 18:30:47.86]			[Loaded]		Application
+[2019-11-02 18:31:13.31]			[Click]		Power Off
+[2019-11-02 18:31:33.71]		1	loading start	
+[2019-11-02 18:31:34.04]			[Loaded]		Application
+[2019-11-02 18:31:46.77]			[Click]		Power Off
+[2019-11-02 18:32:36.31]		1	loading start	
+[2019-11-02 18:32:36.67]			[Loaded]		Application
+[2019-11-02 18:33:07.54]			[Closed]		Application
+[2019-11-02 18:34:59.84]		1	loading start	
+[2019-11-02 18:35:00.52]			[Loaded]		Application
+[2019-11-02 18:35:17.02]			[Closed]		Application
+[2019-11-02 18:41:55.04]		1	loading start	
+[2019-11-02 18:41:55.53]			[Loaded]		Application
+[2019-11-02 18:42:10.83]			[Click]		Measure 
+[2019-11-02 18:42:12.91]			[Click]		Apply 1200 
+[2019-11-02 18:42:47.97]			[Click]		Power Off
+[2019-11-02 18:43:22.08]		1	loading start	
+[2019-11-02 18:43:22.59]			[Loaded]		Application
+[2019-11-02 18:43:28.72]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:43:58.98]			[Click]		Power Off
+[2019-11-02 18:44:44.40]		1	loading start	
+[2019-11-02 18:44:44.89]			[Loaded]		Application
+[2019-11-02 18:45:03.33]			[Closed]		Application
+[2019-11-02 18:45:43.64]		1	loading start	
+[2019-11-02 18:45:44.24]			[Loaded]		Application
+[2019-11-02 18:45:59.32]			[Click]		Power Off
+[2019-11-02 18:46:14.35]			[Click]		Power On
+[2019-11-02 18:46:22.96]			[Click]		Power On
+[2019-11-02 18:46:46.13]			[Click]		Power Off
+[2019-11-02 18:46:54.56]			[Click]		Power On
+[2019-11-02 18:47:03.40]			[Click]		Power On
+[2019-11-02 18:47:12.56]			[Click]		Power On
+[2019-11-02 18:47:34.89]			[Click]		Power On
+[2019-11-02 18:47:53.52]			[Click]		Power On
+[2019-11-02 18:48:04.95]			[Click]		Power On
+[2019-11-02 18:48:27.44]			[Click]		Power Off
+[2019-11-02 18:48:38.94]			[Click]		Power On
+[2019-11-02 18:50:35.21]			[Closed]		Application
+[2019-11-02 18:50:57.09]		1	loading start	
+[2019-11-02 18:50:57.41]			[Loaded]		Application
+[2019-11-02 18:51:15.28]			[Closed]		Application
+[2019-11-02 18:51:41.41]		1	loading start	
+[2019-11-02 18:51:42.24]			[Loaded]		Application
+[2019-11-02 18:51:45.72]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:51:52.63]			[Click]		Test Run
+[2019-11-02 18:52:09.44]			[Closed]		Application
+[2019-11-02 18:52:33.88]		1	loading start	
+[2019-11-02 18:52:34.81]			[Loaded]		Application
+[2019-11-02 18:54:38.01]		1	loading start	
+[2019-11-02 18:54:38.66]			[Loaded]		Application
+[2019-11-02 18:54:49.13]			[Click]		Test Pause
+[2019-11-02 18:54:58.43]			[Click]		Test Run
+[2019-11-02 18:55:50.86]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:56:23.93]			[Closed]		Application
+[2019-11-02 18:57:00.20]		1	loading start	
+[2019-11-02 18:57:01.22]			[Loaded]		Application
+[2019-11-02 18:57:28.44]			[Click]		Power Off
+[2019-11-02 18:57:31.46]	e				SerialSendRecv (0) > 요청한 리소스가 사용 중입니다.
+
+[2019-11-02 18:57:38.34]			[Click]		Power Off
+[2019-11-02 18:57:42.63]	e				SerialSendRecv (0) > 요청한 리소스가 사용 중입니다.
+
+[2019-11-02 18:57:50.89]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:58:00.11]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 18:58:55.86]			[Click]		Power Off
+[2019-11-02 19:05:34.83]		1	loading start	
+[2019-11-02 19:05:35.35]			[Loaded]		Application
+[2019-11-02 19:05:59.09]			[Click]		Power Off
+[2019-11-02 19:06:18.46]			[Click]		Power Off
+[2019-11-02 19:06:21.89]	e				SerialSendRecv (0) > 요청한 리소스가 사용 중입니다.
+
+[2019-11-02 19:06:25.47]			[Click]		Power Off
+[2019-11-02 19:06:32.10]			[Click]		Power Off
+[2019-11-02 19:06:33.49]	e				SerialSendRecv (0) > 요청한 리소스가 사용 중입니다.
+
+[2019-11-02 19:06:35.00]			[Click]		Power Off
+[2019-11-02 19:06:36.36]	e				SerialSendRecv (0) > 요청한 리소스가 사용 중입니다.
+
+[2019-11-02 19:06:42.98]			[Click]		Apply 1200 
+[2019-11-02 19:06:44.32]			[Click]		Measure 
+[2019-11-02 19:06:45.08]			[Click]		Power Off
+[2019-11-02 19:06:46.36]	e				SerialSendRecv (0) > 요청한 리소스가 사용 중입니다.
+
+[2019-11-02 19:06:47.93]			[Click]		Power Off
+[2019-11-02 19:08:56.06]			[Click]		Power Off
+[2019-11-02 19:09:01.63]			[Click]		Power Off
+[2019-11-02 19:09:05.33]			[Click]		Power Off
+[2019-11-02 19:09:08.01]			[Click]		Power Off
+[2019-11-02 19:09:10.46]			[Click]		Power Off
+[2019-11-02 19:09:16.55]			[Click]		Power Off
+[2019-11-02 19:09:21.28]			[Click]		Power Off
+[2019-11-02 19:10:29.26]	e				SerialSendRecv (0) > 요청한 리소스가 사용 중입니다.
+
+[2019-11-02 19:16:49.44]		1	loading start	
+[2019-11-02 19:16:49.97]			[Loaded]		Application
+[2019-11-02 19:17:15.26]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 19:17:30.67]			[Click]		Power Off
+[2019-11-02 19:19:20.99]		1	loading start	
+[2019-11-02 19:19:22.08]			[Loaded]		Application
+[2019-11-02 19:19:28.41]			[Click]		Power Off
+[2019-11-02 19:33:35.86]		1	loading start	
+[2019-11-02 19:33:36.45]			[Loaded]		Application
+[2019-11-02 19:33:42.40]			[Closed]		Application
+[2019-11-02 19:33:48.32]		1	loading start	
+[2019-11-02 19:33:54.75]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 19:33:54.78]			[Loaded]		Application
+[2019-11-02 19:34:02.16]			[Click]		Measure 
+[2019-11-02 19:39:55.77]		1	loading start	
+[2019-11-02 19:40:12.74]			[Loaded]		Application
+[2019-11-02 19:42:16.99]		1	loading start	
+[2019-11-02 19:42:24.69]			[Loaded]		Application
+[2019-11-02 19:42:30.28]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 19:43:13.77]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 19:43:18.15]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 19:45:56.52]		1	loading start	
+[2019-11-02 19:46:02.56]			[Loaded]		Application
+[2019-11-02 19:46:07.48]	e				SerialSendRecv (0) > 작업 시간을 초과했습니다.
+[2019-11-02 19:55:23.37]			[Click]		Power On
+[2019-11-02 19:55:29.20]			[Click]		Power On
+[2019-11-02 19:55:36.87]			[Click]		Power On

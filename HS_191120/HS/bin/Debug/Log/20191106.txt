@@ -1,0 +1,224 @@
+Time			Except	Board	Event		Data
+[2019-11-06 10:00:41.84]			[Loaded]		Application
+[2019-11-06 10:01:14.93]			[Loaded]		Application
+[2019-11-06 10:01:37.77]	e	4			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:01:39.30]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:01:40.32]	e	7			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:01:41.33]	e	10			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:01:42.93]	e	3			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:01:43.88]	e	9			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:01:44.79]	e	5			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:01:45.69]	e	6			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:02:01.46]			[Closed]		Application
+[2019-11-06 10:02:54.82]			[Loaded]		Application
+[2019-11-06 10:04:14.66]	e	9			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:04:17.58]	e	4			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:04:19.64]	e	3			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:04:20.96]	e	7			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:04:21.49]	e	6			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:04:21.73]	e	10			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:04:21.94]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:04:22.12]	e	5			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:04:30.79]			[Click]		Measure 
+[2019-11-06 10:04:43.46]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:04:47.34]			[Click]		Measure 
+[2019-11-06 10:05:31.21]			[Loaded]		Application
+[2019-11-06 10:05:39.29]			[Loaded]		Application
+[2019-11-06 10:05:49.35]	e	6			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:05:49.87]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:05:50.11]	e	3			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:05:50.34]	e	4			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:05:50.56]	e	9			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:05:50.78]	e	7			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:05:51.00]	e	5			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:05:51.44]	e	10			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:06:34.07]			[Click]		Apply 1190 
+[2019-11-06 10:08:19.83]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:08:38.56]			[Click]		Apply 1190 
+[2019-11-06 10:31:51.10]			[Click]		Power Off
+[2019-11-06 10:32:39.28]			[Click]		Power On
+[2019-11-06 10:32:52.23]			[Click]		Power Off
+[2019-11-06 10:32:59.28]			[Click]		Power On
+[2019-11-06 10:33:49.46]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:33:50.56]	e	3			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:33:51.85]	e	4			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:34:00.74]	e	5			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:34:16.21]	e	6			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:34:30.62]	e	7			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:35:02.71]	e	10			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:35:12.31]			[Click]		Power Off
+[2019-11-06 10:35:24.35]			[Click]		Power On
+[2019-11-06 10:36:42.30]	e	9			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:37:13.88]			[Click]		Test Run
+[2019-11-06 10:37:35.18]			[Closed]		Application
+[2019-11-06 10:37:47.82]			[Loaded]		Application
+[2019-11-06 10:37:51.91]	e	4			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:37:52.45]	e	7			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:37:52.92]	e	3			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:37:54.90]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:38:04.63]			[Closed]		Application
+[2019-11-06 10:38:54.79]			[Loaded]		Application
+[2019-11-06 10:39:03.94]	e	7			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:07.36]	e	3			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:07.42]	e	10			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:07.44]	e	5			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:07.46]	e	6			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:07.49]	e	4			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:07.51]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:07.65]	e	9			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:36.13]			[Loaded]		Application
+[2019-11-06 10:39:36.97]	e	9			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:37.00]	e	7			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:37.03]	e	4			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:37.06]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:37.08]	e	5			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:41.27]	e	3			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:41.30]	e	6			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:39:41.34]	e	10			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:40:35.85]			[Loaded]		Application
+[2019-11-06 10:40:36.60]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:40:52.41]			[Loaded]		Application
+[2019-11-06 10:40:53.24]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:41:35.93]			[Closed]		Application
+[2019-11-06 10:42:21.19]			[Loaded]		Application
+[2019-11-06 10:43:21.46]			[Closed]		Application
+[2019-11-06 10:51:46.65]			[Loaded]		Application
+[2019-11-06 10:53:09.77]			[Closed]		Application
+[2019-11-06 10:53:16.78]			[Loaded]		Application
+[2019-11-06 10:55:02.79]			[Loaded]		Application
+[2019-11-06 10:55:03.55]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:55:19.59]			[Closed]		Application
+[2019-11-06 10:56:01.82]			[Loaded]		Application
+[2019-11-06 10:56:11.76]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 10:56:26.02]			[Closed]		Application
+[2019-11-06 10:59:23.80]			[Loaded]		Application
+[2019-11-06 11:00:07.90]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:01:05.22]			[Closed]		Application
+[2019-11-06 11:01:32.89]			[Loaded]		Application
+[2019-11-06 11:01:34.10]	e	7			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:01:34.12]	e	9			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:01:34.18]	e	6			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:01:34.20]	e	4			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:01:34.75]	e	10			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:01:34.77]	e	5			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:01:34.80]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:01:34.82]	e	3			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:02:40.85]			[Loaded]		Application
+[2019-11-06 11:02:41.82]	e	4			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:02:41.85]	e	10			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:02:41.90]	e	5			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:02:41.92]	e	9			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:02:41.95]	e	6			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:02:41.96]	e	1			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:02:41.99]	e	3			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:02:51.28]	e	7			VoltageCommandRecv > 입력 문자열의 형식이 잘못되었습니다.
+[2019-11-06 11:03:59.52]			[Click]		Power Off
+[2019-11-06 11:04:09.37]			[Click]		Power On
+[2019-11-06 11:04:22.10]			[Click]		Power On
+[2019-11-06 11:05:04.05]			[Click]		Power Off
+[2019-11-06 11:05:15.94]			[Click]		Power Off
+[2019-11-06 11:05:23.65]			[Click]		Power On
+[2019-11-06 11:05:52.89]			[Click]		Power On
+[2019-11-06 11:06:24.70]			[Loaded]		Application
+[2019-11-06 11:07:02.19]			[Click]		Power Off
+[2019-11-06 11:07:17.25]			[Click]		Power On
+[2019-11-06 11:09:42.54]			[Closed]		Application
+[2019-11-06 11:42:18.75]			[Loaded]		Application
+[2019-11-06 11:42:23.34]			[Closed]		Application
+[2019-11-06 11:42:42.16]			[Loaded]		Application
+[2019-11-06 11:43:02.80]			[Loaded]		Application
+[2019-11-06 11:44:04.69]			[Loaded]		Application
+[2019-11-06 11:45:07.25]			[Loaded]		Application
+[2019-11-06 11:45:54.67]			[Loaded]		Application
+[2019-11-06 11:46:36.94]			[Closed]		Application
+[2019-11-06 11:46:44.11]			[Loaded]		Application
+[2019-11-06 11:47:46.36]			[Closed]		Application
+[2019-11-06 11:48:00.89]			[Loaded]		Application
+[2019-11-06 11:49:38.10]			[Closed]		Application
+[2019-11-06 14:11:23.26]			[Loaded]		Application
+[2019-11-06 14:11:37.62]			[Loaded]		Application
+[2019-11-06 14:11:54.84]			[Closed]		Application
+[2019-11-06 14:12:17.57]			[Loaded]		Application
+[2019-11-06 14:12:29.97]			[Loaded]		Application
+[2019-11-06 14:20:57.26]			[Click]		Power Off
+[2019-11-06 14:20:58.04]			[Click]		Power Off
+[2019-11-06 14:21:04.98]			[Click]		Power On
+[2019-11-06 14:21:37.15]			[Click]		Measure 
+[2019-11-06 14:21:45.36]			[Click]		Apply 1190 
+[2019-11-06 14:23:58.18]			[Click]		Apply 1190 
+[2019-11-06 14:25:37.08]			[Click]		Apply 1190 
+[2019-11-06 14:25:39.90]			[Click]		Apply 1190 
+[2019-11-06 14:26:13.49]			[Click]		Apply 1190 
+[2019-11-06 14:26:18.29]			[Click]		Measure 
+[2019-11-06 14:26:39.72]			[Click]		Apply 1190 
+[2019-11-06 14:26:47.54]			[Click]		Measure 
+[2019-11-06 14:27:10.89]			[Click]		Apply 1190 
+[2019-11-06 14:28:15.60]			[Closed]		Application
+[2019-11-06 14:28:22.71]			[Loaded]		Application
+[2019-11-06 14:28:36.68]			[Click]		Measure 
+[2019-11-06 14:28:39.32]			[Click]		Measure 
+[2019-11-06 14:28:40.75]			[Click]		Measure 
+[2019-11-06 14:28:41.76]			[Click]		Measure 
+[2019-11-06 14:28:44.88]			[Click]		Measure 
+[2019-11-06 14:28:47.26]			[Click]		Measure 
+[2019-11-06 14:28:48.99]			[Click]		Measure 
+[2019-11-06 14:28:52.62]			[Click]		Apply 1200 
+[2019-11-06 14:32:35.15]			[Closed]		Application
+[2019-11-06 14:32:43.43]			[Loaded]		Application
+[2019-11-06 14:32:51.63]			[Click]		Apply 1200 
+[2019-11-06 14:32:55.32]			[Click]		Measure 
+[2019-11-06 14:33:02.59]			[Click]		Apply 1190 
+[2019-11-06 14:33:05.68]			[Click]		Measure 
+[2019-11-06 14:33:10.24]			[Click]		Apply 1180 
+[2019-11-06 14:33:14.11]			[Click]		Apply 1170 
+[2019-11-06 14:33:18.41]			[Click]		Apply 1160 
+[2019-11-06 14:33:23.15]			[Click]		Apply 1150 
+[2019-11-06 14:33:25.93]			[Click]		Measure 
+[2019-11-06 14:33:28.51]			[Click]		Apply 1150 
+[2019-11-06 14:33:29.78]			[Click]		Measure 
+[2019-11-06 14:33:32.52]			[Click]		Apply 1150 
+[2019-11-06 14:33:48.30]			[Click]		Test Run
+[2019-11-06 14:34:24.07]			[Click]		Test Stop
+[2019-11-06 14:34:28.78]			[Click]		Test Stop
+[2019-11-06 14:34:30.54]			[Click]		Test Stop
+[2019-11-06 14:34:31.75]			[Click]		Test Stop
+[2019-11-06 14:35:52.50]			[Loaded]		Application
+[2019-11-06 14:36:05.54]			[Click]		Test Run
+[2019-11-06 14:36:25.60]			[Click]		Test Pause
+[2019-11-06 14:36:27.68]			[Click]		Test Run
+[2019-11-06 14:36:34.72]			[Click]		Test Pause
+[2019-11-06 14:36:36.62]			[Click]		Test Run
+[2019-11-06 14:36:45.06]			[Click]		Test Stop
+[2019-11-06 14:36:47.26]			[Click]		Test Run
+[2019-11-06 14:36:49.85]			[Click]		Test Stop
+[2019-11-06 14:36:51.78]			[Click]		Test Run
+[2019-11-06 14:41:42.00]			[Loaded]		Application
+[2019-11-06 14:42:16.17]			[Loaded]		Application
+[2019-11-06 14:42:49.98]			[Loaded]		Application
+[2019-11-06 14:44:14.41]			[Loaded]		Application
+[2019-11-06 14:44:41.08]			[Loaded]		Application
+[2019-11-06 14:45:22.71]			[Click]		Test Run
+[2019-11-06 14:47:07.39]			[Click]		Test Run
+[2019-11-06 14:47:09.81]			[Closed]		Application
+[2019-11-06 14:47:40.07]			[Loaded]		Application
+[2019-11-06 14:47:47.38]			[Closed]		Application
+[2019-11-06 14:48:57.02]			[Loaded]		Application
+[2019-11-06 14:49:05.47]			[Click]		Test Run
+[2019-11-06 14:49:11.10]			[Click]		Test Pause
+[2019-11-06 14:49:14.84]			[Closed]		Application
+[2019-11-06 14:49:48.98]			[Loaded]		Application
+[2019-11-06 14:50:05.46]			[Closed]		Application
+[2019-11-06 14:50:51.20]			[Loaded]		Application
+[2019-11-06 15:01:15.88]			[Loaded]		Application
+[2019-11-06 15:01:42.31]			[Loaded]		Application
+[2019-11-06 16:00:32.17]			[Loaded]		Application
+[2019-11-06 16:01:06.67]			[Closed]		Application
+[2019-11-06 16:02:18.70]			[Loaded]		Application
+[2019-11-06 16:02:34.12]			[Loaded]		Application
+[2019-11-06 16:03:03.00]			[Closed]		Application
+[2019-11-06 16:03:12.69]			[Loaded]		Application
+[2019-11-06 16:04:56.34]			[Closed]		Application
+[2019-11-06 16:06:12.79]			[Loaded]		Application
+[2019-11-06 16:06:22.62]			[Closed]		Application
+[2019-11-06 16:13:46.56]			[Loaded]		Application
+[2019-11-06 16:15:38.29]			[Closed]		Application

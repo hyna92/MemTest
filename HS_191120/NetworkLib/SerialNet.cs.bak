@@ -1,0 +1,106 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO.Ports;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
+using ShareLib;
+using DefineLib;
+
+namespace NetworkLib
+{
+    public class SerialNet
+    {
+        public Share share = Share.Initialize;
+
+        public SerialPort SerialHandle = new SerialPort();
+
+        public SerialNet(string SerialPortName)
+        {
+            try
+            {
+                SerialHandle.PortName = SerialPortName;
+                SerialHandle.BaudRate = 115200;
+                SerialHandle.Parity = Parity.None;
+                SerialHandle.DataBits = 8;
+                SerialHandle.StopBits = StopBits.One;// StopBits.One;
+                SerialHandle.WriteTimeout = 20;
+                SerialHandle.ReadTimeout = 20;
+
+                SerialHandle.Open();
+            }
+            catch (Exception ex)
+            {
+                //.EventLog(Convert.ToInt32(SerialPortName), string.Empty, string.Format("\t{0} > {1}", MethodBase.GetCurrentMethod().Name, ex.Message), false);
+            }
+        }
+
+        public bool SerialSendRecv(byte[] SendByteData, out byte[] ReadByteData)
+        {
+            ReadByteData = new byte[SendByteData.Length];
+
+            if(SerialHandle.IsOpen)
+            {
+                try
+                {
+                    //Before
+                    //Base.Sleep(500);
+                    //After
+                    System.Threading.Thread.Sleep(300);
+
+                    //Before
+                    //byte[] values = new byte[1];
+                    //
+                    //for (int i = 0; i < SendByteData.Length; i++)
+                    //{
+                    //    values[0] = SendByteData[i];
+                    //    SerialHandle.Write(values, 0, 1);
+                    //    System.Threading.Thread.Sleep(5);
+                    //}
+
+                    //After
+                    foreach (byte values in SendByteData)
+                    {
+                        byte[] _values = new byte[] { values };
+                        SerialHandle.Write(_values, 0, 1);
+                        System.Threading.Thread.Sleep(5);
+                    }
+
+                    //SerialHandle.Write(SendByteData, 0, SendByteData.Count());
+
+                    //Before
+                    //Base.Sleep(100);
+                    //After
+                    System.Threading.Thread.Sleep(150);
+
+                    SerialHandle.Read(ReadByteData, 0, ReadByteData.Count());
+                }
+                catch (Exception ex)
+                {
+                    share.EventLog(null, string.Empty, string.Format("\t{0} (0) > {1}", MethodBase.GetCurrentMethod().Name, ex.Message), false);
+                    return false;
+                }
+            }
+            else
+            {
+                // LOG
+                //Console.WriteLine("SerialSendRecv - Exception : Port Not Open");
+
+                share.EventLog(null, "[Open Fail]", SerialHandle.PortName);
+
+                //share.EventLog(Convert.ToInt32(SerialHandle.PortName), string.Empty, string.Format("\t{0} > {1}", MethodBase.GetCurrentMethod().Name, ex.Message), false);
+
+                return false;
+            }
+
+            return true;
+        }
+
+
+        public void SerialClose()
+        {
+            SerialHandle.Close();
+        }
+    }
+}

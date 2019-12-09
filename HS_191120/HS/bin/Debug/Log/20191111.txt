@@ -1,0 +1,3 @@
+Time			Except	Board	Event		Data
+[2019-11-11 09:12:45.15]			[Loaded]		Application
+[2019-11-11 09:13:14.84]			[Closed]		Application

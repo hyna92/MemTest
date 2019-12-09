@@ -1,0 +1,14 @@
+Time			Except	Board	Event		Data
+[2019-11-19 12:26:31.79]			[Loaded]		Application
+[2019-11-19 12:27:16.92]			[Loaded]		Application
+[2019-11-19 12:28:06.68]			[Loaded]		Application
+[2019-11-19 12:28:16.03]			[Loaded]		Application
+[2019-11-19 12:29:32.10]			[Loaded]		Application
+[2019-11-19 12:33:40.50]			[Loaded]		Application
+[2019-11-19 12:33:45.70]			[Closed]		Application
+[2019-11-19 12:33:59.53]			[Loaded]		Application
+[2019-11-19 12:34:42.21]			[Loaded]		Application
+[2019-11-19 12:34:47.79]			[Closed]		Application
+[2019-11-19 12:36:50.96]			[Loaded]		Application
+[2019-11-19 12:37:29.03]			[Loaded]		Application
+[2019-11-19 12:41:53.00]			[Closed]		Application

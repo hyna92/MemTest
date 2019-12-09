@@ -1,0 +1,207 @@
+E:\HS\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS\ShareLib\bin\Debug\ShareLib.dll
+E:\HS\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS\ShareLib\bin\Debug\DefineLib.dll
+E:\HS\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS\ShareLib\obj\Debug\ShareLib.dll
+E:\HS\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_190903\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_190903\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_190903\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_190903\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_190903\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_190903\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_190903\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_190903\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_190903\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_190907\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_190907\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_190907\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_190907\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_190907\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_190907\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_190907\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_190907\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_190907\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_190919\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_190919\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_190919\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_190919\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_190919\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_190919\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_190919\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_190919\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_190919\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_190930\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_190930\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_190930\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_190930\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_190930\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_190930\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_190930\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_190930\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_190930\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_1901003\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_1901003\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_1901003\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_1901003\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_1901003\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_1901003\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_1901003\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_1901003\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_1901003\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191003\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191003\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191003\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191003\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191003\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191003\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_191003\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191003\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191003\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191007\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191007\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191007\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191007\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191007\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191007\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_191007\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191007\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191007\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191008\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191008\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191008\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191008\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191008\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191008\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_191008\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191008\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191008\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191011 - 복사본\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191011 - 복사본\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191011 - 복사본\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191011 - 복사본\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191011 - 복사본\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191011 - 복사본\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_191011 - 복사본\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191011 - 복사본\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191011 - 복사본\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191015\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191015\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191015\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191015\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191015\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191015\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_191015\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191015\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191015\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191016\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191016\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191016\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191016\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191016\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191016\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_191016\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191016\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191016\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191021\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191021\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191021\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191021\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191021\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191021\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_191021\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191021\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191021\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191021 - 복사본\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191021 - 복사본\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191021 - 복사본\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191021 - 복사본\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191021 - 복사본\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191021 - 복사본\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_191021 - 복사본\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191021 - 복사본\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191021 - 복사본\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191021_socket\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191021_socket\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191021_socket\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191021_socket\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191021_socket\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191021_socket\ShareLib\obj\Debug\ShareLib.csproj.CoreCompileInputs.cache
+E:\HS_191021_socket\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191021_socket\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191021_socket\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191021_socket_1\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191021_socket_1\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191021_socket_1\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191021_socket_1\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191021_socket_1\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191021_socket_1\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191021_socket_1\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191021_socket_1\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191021_socket_1 - 복사본\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191021_socket_1 - 복사본\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191021_socket_1 - 복사본\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191021_socket_1 - 복사본\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191021_socket_1 - 복사본\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191021_socket_1 - 복사본\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191021_socket_1 - 복사본\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191021_socket_1 - 복사본\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191106\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191106\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191106\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191106\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191106\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191106\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191106\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191106\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191113\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191113\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191113\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191113\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191113\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191113\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191113\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191113\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191119\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191119\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191119\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191119\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191119\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191119\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191119\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191119\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191119 - 복사본\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191119 - 복사본\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191119 - 복사본\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191119 - 복사본\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191119 - 복사본\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191119 - 복사본\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191119 - 복사본\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191119 - 복사본\ShareLib\obj\Debug\ShareLib.pdb
+E:\HS_191120\ShareLib\bin\Debug\ShareLib.dll
+E:\HS_191120\ShareLib\bin\Debug\ShareLib.pdb
+E:\HS_191120\ShareLib\bin\Debug\DefineLib.dll
+E:\HS_191120\ShareLib\bin\Debug\DefineLib.pdb
+E:\HS_191120\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+E:\HS_191120\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+E:\HS_191120\ShareLib\obj\Debug\ShareLib.dll
+E:\HS_191120\ShareLib\obj\Debug\ShareLib.pdb
+C:\Users\hyna\Desktop\HS_191120\ShareLib\bin\Debug\ShareLib.dll
+C:\Users\hyna\Desktop\HS_191120\ShareLib\bin\Debug\ShareLib.pdb
+C:\Users\hyna\Desktop\HS_191120\ShareLib\bin\Debug\DefineLib.dll
+C:\Users\hyna\Desktop\HS_191120\ShareLib\bin\Debug\DefineLib.pdb
+C:\Users\hyna\Desktop\HS_191120\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+C:\Users\hyna\Desktop\HS_191120\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+C:\Users\hyna\Desktop\HS_191120\ShareLib\obj\Debug\ShareLib.dll
+C:\Users\hyna\Desktop\HS_191120\ShareLib\obj\Debug\ShareLib.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\ShareLib\bin\Debug\ShareLib.dll
+C:\Users\hyna\Desktop\HS\HS_191120\ShareLib\bin\Debug\ShareLib.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\ShareLib\bin\Debug\DefineLib.dll
+C:\Users\hyna\Desktop\HS\HS_191120\ShareLib\bin\Debug\DefineLib.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\ShareLib\obj\Debug\ShareLib.csprojAssemblyReference.cache
+C:\Users\hyna\Desktop\HS\HS_191120\ShareLib\obj\Debug\ShareLib.csproj.CopyComplete
+C:\Users\hyna\Desktop\HS\HS_191120\ShareLib\obj\Debug\ShareLib.dll
+C:\Users\hyna\Desktop\HS\HS_191120\ShareLib\obj\Debug\ShareLib.pdb

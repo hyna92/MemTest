@@ -1,0 +1,589 @@
+E:\HS\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS\FunctionUC\obj\Debug\TestUC.baml
+E:\HS\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_190903\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_190903\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_190903\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_190903\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_190903\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_190903\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_190903\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_190903\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_190903\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_190903\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_190903\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_190903\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_190903\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_190903\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_190903\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_190903\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_190903\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_190903\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_190903\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_190903\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_190903\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_190903\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_190907\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_190907\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_190907\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_190907\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_190907\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_190907\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_190907\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_190907\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_190907\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_190907\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_190907\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_190907\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_190907\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_190907\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_190907\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_190907\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_190907\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_190907\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_190907\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_190907\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_190907\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_190907\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_190919\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_190919\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_190919\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_190919\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_190919\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_190919\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_190919\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_190919\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_190919\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_190919\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_190919\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_190919\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_190919\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_190919\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_190919\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_190919\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_190919\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_190919\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_190919\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_190919\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_190919\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_190919\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_190919\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_190919\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_190930\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_190930\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_190930\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_190930\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_190930\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_190930\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_190930\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_190930\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_190930\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_190930\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_190930\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_190930\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_190930\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_190930\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_190930\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_190930\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_190930\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_190930\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_190930\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_190930\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_190930\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_190930\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_190930\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_190930\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_1901003\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_1901003\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_1901003\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_1901003\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_1901003\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_1901003\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_1901003\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_1901003\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_1901003\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_1901003\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_1901003\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_1901003\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_1901003\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_1901003\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_1901003\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_1901003\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_1901003\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_1901003\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_1901003\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_1901003\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_1901003\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_1901003\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_1901003\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_1901003\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191003\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191003\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191003\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191003\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191003\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191003\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191003\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191003\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191003\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191003\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191003\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191003\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191003\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191003\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191003\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191003\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191003\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191003\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191003\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191003\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191003\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_191003\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191003\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191003\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191007\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191007\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191007\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191007\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191007\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191007\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191007\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191007\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191007\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191007\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191007\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191007\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191007\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191007\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191007\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191007\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191007\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191007\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191007\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191007\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191007\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_191007\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191007\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191007\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191008\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191008\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191008\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191008\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191008\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191008\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191008\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191008\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191008\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191008\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191008\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191008\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191008\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191008\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191008\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191008\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191008\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191008\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191008\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191008\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191008\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_191008\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191008\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191008\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191011 - 복사본\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191011 - 복사본\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191011 - 복사본\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191011 - 복사본\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191011 - 복사본\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191011 - 복사본\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191011 - 복사본\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191015\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191015\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191015\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191015\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191015\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191015\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191015\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191015\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191015\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191015\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191015\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191015\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191015\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191015\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191015\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191015\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191015\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191015\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191015\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191015\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191015\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191015\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191015\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_191015\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191015\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191015\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191016\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191016\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191016\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191016\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191016\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191016\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191016\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191016\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191016\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191016\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191016\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191016\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191016\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191016\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191016\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191016\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191016\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191016\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191016\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191016\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191016\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191016\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_191016\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191016\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191016\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191016\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191021\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191021\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191021\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191021\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191021\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191021\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191021\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191021\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191021\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191021\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191021\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191021\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191021\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191021\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191021\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191021\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191021\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191021\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191021\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191021\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191021\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191021\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_191021\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191021\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191021\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191021\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191021 - 복사본\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191021 - 복사본\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191021 - 복사본\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191021 - 복사본\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191021 - 복사본\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191021 - 복사본\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191021 - 복사본\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191021_socket\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191021_socket\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191021_socket\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191021_socket\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191021_socket\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191021_socket\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191021_socket\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191021_socket\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191021_socket\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191021_socket\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191021_socket\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191021_socket\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191021_socket\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191021_socket\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191021_socket\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191021_socket\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191021_socket\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191021_socket\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191021_socket\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191021_socket\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191021_socket\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191021_socket\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191021_socket\FunctionUC\obj\Debug\FunctionUC.csproj.CoreCompileInputs.cache
+E:\HS_191021_socket\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191021_socket\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191021_socket\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191021_socket_1\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191021_socket_1\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191021_socket_1\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191021_socket_1\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191021_socket_1\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191021_socket_1\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191021_socket_1\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191021_socket_1 - 복사본\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191021_socket_1 - 복사본\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191021_socket_1 - 복사본\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191021_socket_1 - 복사본\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191021_socket_1 - 복사본\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191021_socket_1 - 복사본\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191021_socket_1 - 복사본\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191106\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191106\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191106\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191106\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191106\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191106\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191106\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191106\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191106\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191106\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191106\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191106\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191106\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191106\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191106\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191106\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191106\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191106\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191106\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191106\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191106\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191106\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191106\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191106\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191106\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191113\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191113\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191113\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191113\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191113\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191113\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191113\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191113\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191113\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191113\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191113\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191113\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191113\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191113\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191113\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191113\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191113\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191113\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191113\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191113\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191113\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191113\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191113\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191113\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191113\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191119\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191119\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191119\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191119\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191119\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191119\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191119\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+E:\HS_191119\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191119\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191119\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191119\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191119\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191119\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191119\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191119\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191119\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191119\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191119\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191119\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191119\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191119\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191119\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191119\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191119\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191119\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191119 - 복사본\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191119 - 복사본\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191119 - 복사본\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191119 - 복사본\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191119 - 복사본\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191119 - 복사본\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191119 - 복사본\FunctionUC\obj\Debug\FunctionUC.pdb
+E:\HS_191120\FunctionUC\bin\Debug\FunctionUC.dll
+E:\HS_191120\FunctionUC\bin\Debug\FunctionUC.pdb
+E:\HS_191120\FunctionUC\bin\Debug\DefineLib.dll
+E:\HS_191120\FunctionUC\bin\Debug\ShareLib.dll
+E:\HS_191120\FunctionUC\bin\Debug\DefineLib.pdb
+E:\HS_191120\FunctionUC\bin\Debug\ShareLib.pdb
+E:\HS_191120\FunctionUC\obj\Debug\KvmUC.g.cs
+E:\HS_191120\FunctionUC\obj\Debug\PowerUC.g.cs
+E:\HS_191120\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+E:\HS_191120\FunctionUC\obj\Debug\TestUC.g.cs
+E:\HS_191120\FunctionUC\obj\Debug\VoltageUC.g.cs
+E:\HS_191120\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+E:\HS_191120\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+E:\HS_191120\FunctionUC\obj\Debug\KvmUC.baml
+E:\HS_191120\FunctionUC\obj\Debug\PowerUC.baml
+E:\HS_191120\FunctionUC\obj\Debug\SerialConfigUC.baml
+E:\HS_191120\FunctionUC\obj\Debug\TestUC.baml
+E:\HS_191120\FunctionUC\obj\Debug\VoltageUC.baml
+E:\HS_191120\FunctionUC\obj\Debug\FunctionUC.g.resources
+E:\HS_191120\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+E:\HS_191120\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+E:\HS_191120\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+E:\HS_191120\FunctionUC\obj\Debug\FunctionUC.dll
+E:\HS_191120\FunctionUC\obj\Debug\FunctionUC.pdb
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\bin\Debug\FunctionUC.dll
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\bin\Debug\FunctionUC.pdb
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\bin\Debug\DefineLib.dll
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\bin\Debug\ShareLib.dll
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\bin\Debug\DefineLib.pdb
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\bin\Debug\ShareLib.pdb
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\KvmUC.g.cs
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\PowerUC.g.cs
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\TestUC.g.cs
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\VoltageUC.g.cs
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\KvmUC.baml
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\PowerUC.baml
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\SerialConfigUC.baml
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\TestUC.baml
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\VoltageUC.baml
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\FunctionUC.g.resources
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\FunctionUC.dll
+C:\Users\hyna\Desktop\HS_191120\FunctionUC\obj\Debug\FunctionUC.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\bin\Debug\FunctionUC.dll
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\bin\Debug\FunctionUC.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\bin\Debug\DefineLib.dll
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\bin\Debug\ShareLib.dll
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\bin\Debug\DefineLib.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\bin\Debug\ShareLib.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\FunctionUC.csprojAssemblyReference.cache
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\KvmUC.g.cs
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\PowerUC.g.cs
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\SerialConfigUC.g.cs
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\TestUC.g.cs
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\VoltageUC.g.cs
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.cache
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\FunctionUC_MarkupCompile.lref
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\KvmUC.baml
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\PowerUC.baml
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\SerialConfigUC.baml
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\TestUC.baml
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\VoltageUC.baml
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\FunctionUC.g.resources
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\FunctionUC.Properties.Resources.resources
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\FunctionUC.csproj.GenerateResource.cache
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\FunctionUC.csproj.CopyComplete
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\FunctionUC.dll
+C:\Users\hyna\Desktop\HS\HS_191120\FunctionUC\obj\Debug\FunctionUC.pdb

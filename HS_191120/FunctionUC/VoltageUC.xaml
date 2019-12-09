@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="FunctionUC.VoltageUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FunctionUC"
+             mc:Ignorable="d" 
+             Height="Auto" Width="Auto">
+    
+    <UserControl.Resources>
+        <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Background" Value="#DBE2EF"/>
+        </Style>
+    </UserControl.Resources>
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="Channel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <ComboBox Grid.Row="0" Grid.Column="1" Name="CHSelectCB" VerticalContentAlignment="Center" SelectedIndex="0" Margin="0,0,0,2.5">
+            <ComboBoxItem Content="CH_0"/>
+            <ComboBoxItem Content="CH_1"/>
+            <!--<ComboBoxItem Content="ALL"/>-->
+        </ComboBox>
+
+        <!--<Label Grid.Row="1" Grid.Column="0" Content="Channel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>-->
+        <ComboBox Grid.Row="1" Grid.Column="1" Name="VddSelectCB" VerticalContentAlignment="Center" SelectedIndex="0" Margin="0,2.5">
+            <ComboBoxItem Content="VDD"/>
+            <ComboBoxItem Content="VDDQ"/>
+            <ComboBoxItem Content="VDDQ2"/>
+            <!--<ComboBoxItem Content="ALL"/>-->
+        </ComboBox>
+
+        <Label Grid.Row="2" Grid.Column="0" Content="Value" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox Grid.Column="0" Name="VoltValueTB" Text="1200" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderThickness="0" Margin="0,2.5" PreviewKeyDown="VoltValueTB_PreviewKeyDown" Background="#DBE2EF"/>
+            <Label Grid.Column="1" Content="mv" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        </Grid>
+
+        <Button Grid.Row="3" Grid.ColumnSpan="2" Name="VoltApplyBtn" Content="APPLY" Margin="0,2.5" Click="VoltApplyBtn_Click" Style="{StaticResource ButtonStyle}"/>
+        <Button Grid.Row="4" Grid.ColumnSpan="2" Name="VoltMeasureBtn" Content="MEASURE" Margin="0,2.5,0,0" Click="VoltMeasureBtn_Click" Style="{StaticResource ButtonStyle}"/>
+        <!--<Grid Grid.Row="3" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            
+            <Button Grid.Row="0" Name="VoltApplyBtn" Content="APPLY" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,2.5,2.5,0" Click="VoltApplyBtn_Click"/>
+            <Button Grid.Row="1" Name="VoltMeasureBtn" Content="MEASURE" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="2.5,2.5,0,0" Click="VoltMeasureBtn_Click"/>
+        </Grid>-->
+     </Grid>
+</UserControl>

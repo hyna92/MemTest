@@ -1,0 +1,175 @@
+Time			Except	Board	Event		Data
+[2019-10-27 07:25:03.68]			[Closed]		Application
+[2019-10-27 07:34:48.80]		1	loading start	
+[2019-10-27 07:34:48.97]			[Loaded]		Application
+[2019-10-27 07:35:45.36]			[Closed]		Application
+[2019-10-27 07:35:53.11]		1	loading start	
+[2019-10-27 07:36:04.64]			[Loaded]		Application
+[2019-10-27 07:37:05.30]		1	loading start	
+[2019-10-27 07:37:05.43]			[Loaded]		Application
+[2019-10-27 07:43:44.26]		1	loading start	
+[2019-10-27 07:43:44.32]			[Loaded]		Application
+[2019-10-27 07:43:49.58]			[Closed]		Application
+[2019-10-27 07:44:02.16]		1	loading start	
+[2019-10-27 07:44:02.25]			[Loaded]		Application
+[2019-10-27 07:48:21.50]		1	loading start	
+[2019-10-27 07:48:21.58]			[Loaded]		Application
+[2019-10-27 07:48:43.30]		1	loading start	
+[2019-10-27 07:48:43.38]			[Loaded]		Application
+[2019-10-27 07:49:50.22]			[Closed]		Application
+[2019-10-27 07:50:16.86]		1	loading start	
+[2019-10-27 07:50:16.96]			[Loaded]		Application
+[2019-10-27 07:50:20.11]			[Closed]		Application
+[2019-10-27 07:50:31.16]		1	loading start	
+[2019-10-27 07:50:31.27]			[Loaded]		Application
+[2019-10-27 07:52:21.99]			[Click]		Test Run
+[2019-10-27 07:52:55.18]		1	loading start	
+[2019-10-27 07:52:55.36]			[Loaded]		Application
+[2019-10-27 08:57:31.02]			[Closed]		Application
+[2019-10-27 08:58:16.00]		1	loading start	
+[2019-10-27 08:58:16.14]			[Loaded]		Application
+[2019-10-27 08:59:52.43]		1	loading start	
+[2019-10-27 08:59:55.72]			[Loaded]		Application
+[2019-10-27 09:03:36.18]		1	loading start	
+[2019-10-27 09:03:36.31]			[Loaded]		Application
+[2019-10-27 09:04:20.52]			[Click]		Test Run
+[2019-10-27 09:04:34.74]			[Click]		Test Pause
+[2019-10-27 09:04:38.47]			[Click]		Test Run
+[2019-10-27 09:04:41.21]			[Click]		Test Pause
+[2019-10-27 09:05:19.11]			[Click]		Test Run
+[2019-10-27 09:06:05.79]		1	loading start	
+[2019-10-27 09:06:06.03]			[Loaded]		Application
+[2019-10-27 09:06:57.82]			[Click]		Test Stop
+[2019-10-27 09:07:09.61]			[Closed]		Application
+[2019-10-27 09:07:18.26]		1	loading start	
+[2019-10-27 09:07:18.44]			[Loaded]		Application
+[2019-10-27 09:07:51.22]			[Click]		Test Stop
+[2019-10-27 09:07:52.57]			[Click]		Test Stop
+[2019-10-27 09:07:52.80]			[Click]		Test Stop
+[2019-10-27 09:07:54.11]			[Closed]		Application
+[2019-10-27 09:08:00.12]		1	loading start	
+[2019-10-27 09:08:00.49]			[Loaded]		Application
+[2019-10-27 09:08:12.85]			[Click]		Test Run
+[2019-10-27 09:08:22.11]			[Closed]		Application
+[2019-10-27 09:08:29.52]		1	loading start	
+[2019-10-27 09:08:29.77]			[Loaded]		Application
+[2019-10-27 09:08:39.12]			[Click]		Measure 
+[2019-10-27 09:08:44.86]			[Click]		Apply 1190 
+[2019-10-27 09:08:47.03]			[Click]		Measure 
+[2019-10-27 09:08:55.34]			[Click]		Test Pause
+[2019-10-27 09:08:57.11]			[Click]		Test Run
+[2019-10-27 09:09:01.60]			[Click]		Test Stop
+[2019-10-27 09:09:06.10]			[Click]		Power Off
+[2019-10-27 09:09:55.10]			[Click]		Test Run
+[2019-10-27 09:10:03.98]			[Click]		Test Stop
+[2019-10-27 09:10:14.16]			[Click]		Test Run
+[2019-10-27 09:10:19.95]			[Click]		Test Stop
+[2019-10-27 09:11:43.11]		1	loading start	
+[2019-10-27 09:11:43.26]			[Loaded]		Application
+[2019-10-27 09:12:21.02]			[Closed]		Application
+[2019-10-27 09:12:27.51]		1	loading start	
+[2019-10-27 09:12:27.64]			[Loaded]		Application
+[2019-10-27 09:12:35.65]			[Click]		Test Run
+[2019-10-27 09:12:40.48]			[Click]		Test Pause
+[2019-10-27 09:12:43.57]			[Click]		Test Run
+[2019-10-27 09:12:51.46]			[Click]		Test Stop
+[2019-10-27 09:12:54.83]			[Closed]		Application
+[2019-10-27 09:13:00.67]		1	loading start	
+[2019-10-27 09:13:01.24]			[Loaded]		Application
+[2019-10-27 09:13:13.31]			[Click]		Test Run
+[2019-10-27 09:13:20.94]			[Click]		Test Pause
+[2019-10-27 09:13:23.75]			[Click]		Test Run
+[2019-10-27 09:13:28.59]			[Click]		Test Stop
+[2019-10-27 09:13:31.52]			[Click]		Test Run
+[2019-10-27 09:13:39.84]			[Click]		Measure 
+[2019-10-27 09:13:42.42]			[Click]		Test Run
+[2019-10-27 09:13:44.58]			[Click]		Test Stop
+[2019-10-27 09:13:52.50]			[Click]		Test Run
+[2019-10-27 09:13:55.51]			[Click]		Test Stop
+[2019-10-27 09:13:57.77]			[Closed]		Application
+[2019-10-27 09:14:06.17]		1	loading start	
+[2019-10-27 09:14:06.30]			[Loaded]		Application
+[2019-10-27 09:14:17.07]			[Closed]		Application
+[2019-10-27 09:14:25.75]		1	loading start	
+[2019-10-27 09:14:26.13]			[Loaded]		Application
+[2019-10-27 09:14:31.21]			[Closed]		Application
+[2019-10-27 09:14:42.84]		1	loading start	
+[2019-10-27 09:14:43.02]			[Loaded]		Application
+[2019-10-27 09:15:01.70]			[Closed]		Application
+[2019-10-27 09:15:09.54]		1	loading start	
+[2019-10-27 09:15:09.67]			[Loaded]		Application
+[2019-10-27 09:15:20.04]			[Closed]		Application
+[2019-10-27 09:15:28.19]		1	loading start	
+[2019-10-27 09:15:28.41]			[Loaded]		Application
+[2019-10-27 09:15:39.05]			[Closed]		Application
+[2019-10-27 09:16:01.20]		1	loading start	
+[2019-10-27 09:16:01.49]			[Loaded]		Application
+[2019-10-27 09:16:12.73]			[Click]		Test Run
+[2019-10-27 09:16:22.28]			[Click]		Test Pause
+[2019-10-27 09:16:24.61]			[Click]		Test Run
+[2019-10-27 09:16:28.17]			[Closed]		Application
+[2019-10-27 09:20:55.19]		1	loading start	
+[2019-10-27 09:20:55.46]			[Loaded]		Application
+[2019-10-27 09:21:59.62]			[Closed]		Application
+[2019-10-27 09:31:17.72]		1	loading start	
+[2019-10-27 09:31:17.88]			[Loaded]		Application
+[2019-10-27 09:36:15.28]		1	loading start	
+[2019-10-27 09:36:15.47]			[Loaded]		Application
+[2019-10-27 09:36:37.59]		1	loading start	
+[2019-10-27 09:36:37.70]			[Loaded]		Application
+[2019-10-27 09:37:14.57]		1	loading start	
+[2019-10-27 09:37:14.71]			[Loaded]		Application
+[2019-10-27 09:37:28.26]			[Click]		Test Stop
+[2019-10-27 09:37:31.12]			[Closed]		Application
+[2019-10-27 09:41:19.81]		1	loading start	
+[2019-10-27 09:41:20.08]			[Loaded]		Application
+[2019-10-27 09:42:06.41]			[Click]		Test Run
+[2019-10-27 09:42:54.60]		1	loading start	
+[2019-10-27 09:42:54.74]			[Loaded]		Application
+[2019-10-27 09:43:20.67]			[Closed]		Application
+[2019-10-27 09:43:30.11]		1	loading start	
+[2019-10-27 09:43:30.25]			[Loaded]		Application
+[2019-10-27 09:43:37.28]			[Closed]		Application
+[2019-10-27 09:43:51.03]		1	loading start	
+[2019-10-27 09:43:51.15]			[Loaded]		Application
+[2019-10-27 09:45:38.89]		1	loading start	
+[2019-10-27 09:45:39.02]			[Loaded]		Application
+[2019-10-27 09:45:43.51]			[Closed]		Application
+[2019-10-27 09:47:10.54]		1	loading start	
+[2019-10-27 09:47:10.65]			[Loaded]		Application
+[2019-10-27 09:47:21.44]			[Closed]		Application
+[2019-10-27 09:56:36.88]		1	loading start	
+[2019-10-27 09:56:37.82]			[Loaded]		Application
+[2019-10-27 09:57:05.40]		1	loading start	
+[2019-10-27 09:57:08.87]			[Loaded]		Application
+[2019-10-27 09:58:54.20]		1	loading start	
+[2019-10-27 09:58:54.31]			[Loaded]		Application
+[2019-10-27 09:59:02.75]			[Closed]		Application
+[2019-10-27 09:59:18.65]		1	loading start	
+[2019-10-27 09:59:18.76]			[Loaded]		Application
+[2019-10-27 09:59:24.80]			[Closed]		Application
+[2019-10-27 10:00:27.19]		1	loading start	
+[2019-10-27 10:00:27.39]			[Loaded]		Application
+[2019-10-27 10:02:43.21]		1	loading start	
+[2019-10-27 10:02:43.31]			[Loaded]		Application
+[2019-10-27 10:03:14.67]		1	loading start	
+[2019-10-27 10:03:14.79]			[Loaded]		Application
+[2019-10-27 10:03:46.21]		1	loading start	
+[2019-10-27 10:03:53.82]			[Loaded]		Application
+[2019-10-27 10:06:04.20]			[Closed]		Application
+[2019-10-27 10:07:23.77]		1	loading start	
+[2019-10-27 10:07:27.96]			[Loaded]		Application
+[2019-10-27 10:08:19.42]			[Closed]		Application
+[2019-10-27 10:09:16.75]		1	loading start	
+[2019-10-27 10:09:16.92]			[Loaded]		Application
+[2019-10-27 10:09:26.02]			[Closed]		Application
+[2019-10-27 10:12:01.49]		1	loading start	
+[2019-10-27 10:12:06.61]			[Loaded]		Application
+[2019-10-27 10:12:26.61]		1	loading start	
+[2019-10-27 10:12:27.32]			[Loaded]		Application
+[2019-10-27 10:16:04.30]		1	loading start	
+[2019-10-27 10:16:04.45]			[Loaded]		Application
+[2019-10-27 10:16:42.04]		1	loading start	
+[2019-10-27 10:16:42.30]			[Loaded]		Application
+[2019-10-27 10:17:51.97]		1	loading start	
+[2019-10-27 10:17:52.20]			[Loaded]		Application

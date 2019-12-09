@@ -1,0 +1,115 @@
+E:\HS\BaseLib\bin\Debug\BaseLib.dll
+E:\HS\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS\BaseLib\obj\Debug\BaseLib.dll
+E:\HS\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_190903\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_190903\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_190903\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_190903\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_190903\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_190903\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_190907\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_190907\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_190907\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_190907\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_190907\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_190907\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_190919\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_190919\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_190919\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_190919\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_190919\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_190919\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_190930\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_190930\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_190930\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_190930\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_190930\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_1901003\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_1901003\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_1901003\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_1901003\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_1901003\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_1901003\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191003\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191003\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191003\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_191003\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_191003\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191003\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191008\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191008\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191008\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_191008\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_191008\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191008\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191011 - 복사본\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191011 - 복사본\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191011 - 복사본\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_191011 - 복사본\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191011 - 복사본\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191016\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191016\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191016\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_191016\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191016\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191021\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191021\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191021\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_191021\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191021\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191021 - 복사본\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191021 - 복사본\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191021 - 복사본\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_191021 - 복사본\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_191021 - 복사본\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191021 - 복사본\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191021_socket\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191021_socket\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191021_socket\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_191021_socket\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+E:\HS_191021_socket\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191021_socket\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191021_socket_1\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191021_socket_1\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191021_socket_1\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191021_socket_1\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191021_socket_1 - 복사본\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191021_socket_1 - 복사본\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191021_socket_1 - 복사본\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_191021_socket_1 - 복사본\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191021_socket_1 - 복사본\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191106\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191106\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191106\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_191106\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191106\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191113\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191113\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191113\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_191113\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191113\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191119\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191119\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191119\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+E:\HS_191119\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191119\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191119 - 복사본\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191119 - 복사본\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191119 - 복사본\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191119 - 복사본\BaseLib\obj\Debug\BaseLib.pdb
+E:\HS_191120\BaseLib\bin\Debug\BaseLib.dll
+E:\HS_191120\BaseLib\bin\Debug\BaseLib.pdb
+E:\HS_191120\BaseLib\obj\Debug\BaseLib.dll
+E:\HS_191120\BaseLib\obj\Debug\BaseLib.pdb
+C:\Users\hyna\Desktop\HS_191120\BaseLib\bin\Debug\BaseLib.dll
+C:\Users\hyna\Desktop\HS_191120\BaseLib\bin\Debug\BaseLib.pdb
+C:\Users\hyna\Desktop\HS_191120\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+C:\Users\hyna\Desktop\HS_191120\BaseLib\obj\Debug\BaseLib.dll
+C:\Users\hyna\Desktop\HS_191120\BaseLib\obj\Debug\BaseLib.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\BaseLib\bin\Debug\BaseLib.dll
+C:\Users\hyna\Desktop\HS\HS_191120\BaseLib\bin\Debug\BaseLib.pdb
+C:\Users\hyna\Desktop\HS\HS_191120\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+C:\Users\hyna\Desktop\HS\HS_191120\BaseLib\obj\Debug\BaseLib.dll
+C:\Users\hyna\Desktop\HS\HS_191120\BaseLib\obj\Debug\BaseLib.pdb
